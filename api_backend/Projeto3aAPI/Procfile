@@ -1,0 +1,1 @@
+web: java -jar target/Projeto3aAPI-0.0.1-SNAPSHOT.jar

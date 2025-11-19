@@ -1,0 +1,3960 @@
+[
+  {
+    "question": "Qual destes golpes online é mais comum em apps de mensagens?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Venda de terrenos rurais"
+      },
+      {
+        "label": "B",
+        "text": "Golpe do falso parente pedindo dinheiro"
+      },
+      {
+        "label": "C",
+        "text": "Roubo de identidade por escaneamento de íris"
+      },
+      {
+        "label": "D",
+        "text": "Venda de moedas falsas"
+      }
+    ],
+    "correct": "B",
+    "tip": "O golpe do falso parente é muito comum em aplicativos de mensagens porque se aproveita da confiança que as pessoas têm em contatos próximos para pedir dinheiro de forma urgente, enganando a vítima rapidamente.",
+    "interests": [
+      "Tecnologia",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe envolve a venda de equipamentos fotográficos com fotos falsas de anúncios?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Phishing bancário"
+      },
+      {
+        "label": "B",
+        "text": "Pirâmide financeira"
+      },
+      {
+        "label": "C",
+        "text": "Venda de produto inexistente com imagens roubadas da internet"
+      },
+      {
+        "label": "D",
+        "text": "Golpe do motoboy"
+      }
+    ],
+    "correct": "C",
+    "tip": "Nesse golpe, golpistas usam imagens reais e atraentes para anunciar equipamentos fotográficos que não existem ou não serão entregues, enganando compradores interessados.",
+    "interests": [
+      "Tecnologia",
+      "Fotografia",
+      "Leitura",
+      "Investimentos",
+      "Design",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual fraude é comum no mercado de livros digitais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Falsificação de identidade de autores"
+      },
+      {
+        "label": "B",
+        "text": "Venda de livros com conteúdo copiado ou inexistente"
+      },
+      {
+        "label": "C",
+        "text": "Assinatura de revistas físicas sem envio"
+      },
+      {
+        "label": "D",
+        "text": "Desconto vitalício em cursos presenciais"
+      }
+    ],
+    "correct": "B",
+    "tip": "No mercado digital, é comum que sejam vendidos livros com conteúdos plagiados ou mesmo arquivos vazios, lesando o consumidor que acredita estar adquirindo um produto legítimo.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Desenvolvimento Pessoal",
+      "Design",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual fraude é comum na venda de ingressos de cinema online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ingressos clonados ou já utilizados"
+      },
+      {
+        "label": "B",
+        "text": "Vendas apenas em dinheiro vivo"
+      },
+      {
+        "label": "C",
+        "text": "Venda de ingressos para filmes inexistentes"
+      },
+      {
+        "label": "D",
+        "text": "Desvio de pipoca do cinema"
+      }
+    ],
+    "correct": "A",
+    "tip": "A clonagem de ingressos é comum, onde golpistas vendem ingressos que já foram usados ou são falsificados, causando prejuízo e frustração para os compradores.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Cinema",
+      "Esportes",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "question": "Qual prática fraudulenta impacta diretamente artistas em plataformas de streaming?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Roubo de identidade de ouvintes"
+      },
+      {
+        "label": "B",
+        "text": "Vendas de álbuns físicos não entregues"
+      },
+      {
+        "label": "C",
+        "text": "Bots que geram streams falsos e desviam royalties"
+      },
+      {
+        "label": "D",
+        "text": "Compartilhamento legal de senhas"
+      }
+    ],
+    "correct": "C",
+    "tip": "O uso de bots para gerar streams falsos inflaciona artificialmente o número de reproduções, desviando os royalties que deveriam ir para os artistas reais.",
+    "interests": [
+      "Tecnologia",
+      "Música",
+      "Empreendedorismo",
+      "Podcasts",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe é comum em reservas de hospedagem falsas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Overbooking legítimo"
+      },
+      {
+        "label": "B",
+        "text": "Desconto de fidelidade falsa"
+      },
+      {
+        "label": "C",
+        "text": "Sites clones que coletam dados e não fazem reserva"
+      },
+      {
+        "label": "D",
+        "text": "Promoção de café da manhã ilimitado"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas criam sites que imitam plataformas de reserva legítimas, coletando dados pessoais e pagamentos sem jamais efetuar a reserva, prejudicando o consumidor.",
+    "interests": [
+      "Tecnologia",
+      "Viagens",
+      "Games",
+      "Religião",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude pode ocorrer em sites de avaliação de restaurantes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Avaliações falsas pagas para inflar ou prejudicar reputações"
+      },
+      {
+        "label": "B",
+        "text": "Clonagem de cardápio"
+      },
+      {
+        "label": "C",
+        "text": "Oferta de sobremesa gratuita falsa"
+      },
+      {
+        "label": "D",
+        "text": "Hackeamento do cardápio digital"
+      }
+    ],
+    "correct": "A",
+    "tip": "Avaliações falsas são usadas para manipular a reputação de estabelecimentos, podendo prejudicar ou beneficiar injustamente restaurantes, enganando consumidores.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Gastronomia",
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe é frequente na venda de ingressos de eventos esportivos pela internet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vendas por cambistas oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Leilões com garantia estendida"
+      },
+      {
+        "label": "C",
+        "text": "Ingressos falsificados ou não entregues"
+      },
+      {
+        "label": "D",
+        "text": "Compra de lugares com visão parcial"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas vendem ingressos falsificados ou cobram por ingressos que nunca serão entregues, prejudicando fãs que acreditam estar adquirindo ingressos legítimos.",
+    "interests": [
+      "Tecnologia",
+      "Esportes",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que fraude é comum na venda de carros usados online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multas acumuladas propositalmente"
+      },
+      {
+        "label": "B",
+        "text": "Veículo anunciado não existe ou tem problemas ocultos graves"
+      },
+      {
+        "label": "C",
+        "text": "Venda de gasolina adulterada"
+      },
+      {
+        "label": "D",
+        "text": "Desvio de IPVA pago"
+      }
+    ],
+    "correct": "B",
+    "tip": "Anúncios enganosos oferecem veículos que não existem ou escondem problemas graves, como sinistros, gerando prejuízo financeiro e riscos para compradores.",
+    "interests": [
+      "Tecnologia",
+      "Carros",
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual tipo de fraude ocorre com mais frequência em brechós virtuais de luxo?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Venda de bolsas com zíper trocado"
+      },
+      {
+        "label": "B",
+        "text": "Produtos falsificados vendidos como originais"
+      },
+      {
+        "label": "C",
+        "text": "Encargos de lavagem obrigatórios"
+      },
+      {
+        "label": "D",
+        "text": "Venda de roupas sem botão reserva"
+      }
+    ],
+    "correct": "B",
+    "tip": "A falsificação é um problema comum em brechós virtuais de luxo, onde produtos supostamente originais são na verdade réplicas de baixa qualidade.",
+    "interests": [
+      "Viagens",
+      "Moda",
+      "Moda e Estilo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que golpe é comum em marketplaces de itens colecionáveis de games?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Itens virtuais vendidos e nunca entregues"
+      },
+      {
+        "label": "B",
+        "text": "Venda de jogos físicos vencidos"
+      },
+      {
+        "label": "C",
+        "text": "Invasão de contas por fãs"
+      },
+      {
+        "label": "D",
+        "text": "Venda de consoles com vírus"
+      }
+    ],
+    "correct": "A",
+    "tip": "Itens virtuais são anunciados e pagos, mas os golpistas não entregam, prejudicando jogadores que buscam aumentar seu inventário.",
+    "interests": [
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual armadilha digital afeta quem busca cursos de desenvolvimento pessoal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos caros com promessas falsas de certificação internacional"
+      },
+      {
+        "label": "B",
+        "text": "Livros didáticos com páginas repetidas"
+      },
+      {
+        "label": "C",
+        "text": "Sessões em grupo com preço reduzido"
+      },
+      {
+        "label": "D",
+        "text": "Consultorias gratuitas via videoconferência"
+      }
+    ],
+    "correct": "A",
+    "tip": "Muitos cursos prometem certificações ou resultados milagrosos que não existem, cobrando valores altos e entregando pouco conteúdo útil.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Animais",
+      "Religião",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que fraude pode ocorrer em esquemas de investimentos de alto retorno rápido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Golpe de pirâmide ou esquema Ponzi"
+      },
+      {
+        "label": "B",
+        "text": "Cashback diário garantido"
+      },
+      {
+        "label": "C",
+        "text": "Venda de ações limitadas governamentais"
+      },
+      {
+        "label": "D",
+        "text": "Desconto fixo em criptomoedas"
+      }
+    ],
+    "correct": "A",
+    "tip": "Esquemas Ponzi atraem investidores prometendo retornos muito altos e rápidos, mas usam o dinheiro de novos investidores para pagar os antigos, colapsando eventualmente.",
+    "interests": [
+      "Investimentos"
+    ]
+  },
+  {
+    "question": "Qual golpe é comum em apps ou cursos online de meditação?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Acesso a áudios muito curtos"
+      },
+      {
+        "label": "B",
+        "text": "Cobranças recorrentes escondidas em testes gratuitos"
+      },
+      {
+        "label": "C",
+        "text": "Perda de concentração coletiva"
+      },
+      {
+        "label": "D",
+        "text": "Sessões gravadas sem áudio"
+      }
+    ],
+    "correct": "B",
+    "tip": "Muitos apps ou cursos oferecem testes gratuitos, mas depois cobram assinaturas recorrentes difíceis de cancelar, prejudicando o consumidor.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Meditação",
+      "Ciência",
+      "Podcasts",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude é frequente em eventos de empreendedorismo?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Palestras que vendem produtos irreais ou promessas de sucesso garantido"
+      },
+      {
+        "label": "B",
+        "text": "Falta de coffee break"
+      },
+      {
+        "label": "C",
+        "text": "Ausência de palestrantes"
+      },
+      {
+        "label": "D",
+        "text": "Cobrança de crachás"
+      }
+    ],
+    "correct": "A",
+    "tip": "Alguns eventos prometem sucesso rápido e fácil, vendendo produtos ou métodos ineficazes que apenas geram prejuízo financeiro para os participantes.",
+    "interests": [
+      "Investimentos",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe costuma atingir doadores de causas ambientais falsas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cobrança de taxas para doação"
+      },
+      {
+        "label": "B",
+        "text": "Campanhas fraudulentas que usam imagens e histórias falsas para arrecadar dinheiro"
+      },
+      {
+        "label": "C",
+        "text": "Doações obrigatórias em sites oficiais"
+      },
+      {
+        "label": "D",
+        "text": "Descontos em lojas virtuais para doadores"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam campanhas que aparentam ser de causas ambientais legítimas, mas usam dados falsos para enganar doadores e desviar recursos.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Natureza",
+      "História",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe é comum em campanhas de adoção de animais online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adoção sem visitas técnicas"
+      },
+      {
+        "label": "B",
+        "text": "Cobrança antecipada para entrega de animais que não existem"
+      },
+      {
+        "label": "C",
+        "text": "Oferta de rações grátis"
+      },
+      {
+        "label": "D",
+        "text": "Campanhas com fotos de animais doados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas pedem pagamentos antecipados para adoção de animais que não existem ou nunca serão entregues, enganando os interessados.",
+    "interests": [
+      "Tecnologia",
+      "Fotografia",
+      "Games",
+      "Investimentos",
+      "Animais"
+    ]
+  },
+  {
+    "question": "Que fraude é comum em vídeos falsos de receitas virais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vídeos que usam ingredientes falsificados ou instruções incorretas"
+      },
+      {
+        "label": "B",
+        "text": "Vídeos sem áudio"
+      },
+      {
+        "label": "C",
+        "text": "Vídeos com receitas tradicionais antigas"
+      },
+      {
+        "label": "D",
+        "text": "Vídeos sem legendas"
+      }
+    ],
+    "correct": "A",
+    "tip": "Vídeos que prometem receitas milagrosas podem conter informações falsas ou ingredientes que não existem, enganando quem tenta reproduzir.",
+    "interests": [
+      "Gastronomia",
+      "Investimentos",
+      "Culinária",
+      "Humor",
+      "Podcasts"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude afeta lojas online de materiais de artesanato?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos entregues em embalagens recicladas"
+      },
+      {
+        "label": "B",
+        "text": "Produtos anunciados que nunca são enviados após o pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Frete grátis apenas para grandes compras"
+      },
+      {
+        "label": "D",
+        "text": "Promoções relâmpago com desconto real"
+      }
+    ],
+    "correct": "B",
+    "tip": "Alguns vendedores fraudulentos anunciam produtos artesanais, recebem o pagamento, mas nunca enviam os itens aos compradores.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Artesanato",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe pode ocorrer na contratação de professores de dança pela internet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Profissionais que cobram e não oferecem aulas"
+      },
+      {
+        "label": "B",
+        "text": "Aulas com foco apenas em ballet clássico"
+      },
+      {
+        "label": "C",
+        "text": "Aulas gravadas com duração inferior a 10 minutos"
+      },
+      {
+        "label": "D",
+        "text": "Promoção de aulas ao vivo gratuitas"
+      }
+    ],
+    "correct": "A",
+    "tip": "Alguns “professores” cobram pelos cursos online, mas não entregam o conteúdo prometido, prejudicando quem busca aprendizado.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Dança",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude é comum na venda de suplementos “cientificamente comprovados”?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Suplementos com sabor artificial"
+      },
+      {
+        "label": "B",
+        "text": "Produtos sem eficácia real, com testes falsificados"
+      },
+      {
+        "label": "C",
+        "text": "Vendas com desconto para estudantes"
+      },
+      {
+        "label": "D",
+        "text": "Produtos com garantia de satisfação"
+      }
+    ],
+    "correct": "B",
+    "tip": "Muitos suplementos vendem-se como “cientificamente comprovados”, mas não passam de fraudes com dados e testes manipulados para enganar consumidores.",
+    "interests": [
+      "Empreendedorismo",
+      "Ciência",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Qual golpe é comum em sites que vendem documentos históricos falsificados?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Documentos entregues em papel reciclado"
+      },
+      {
+        "label": "B",
+        "text": "Falta de tradução para vários idiomas"
+      },
+      {
+        "label": "C",
+        "text": "Venda de documentos falsos com aparência legítima"
+      },
+      {
+        "label": "D",
+        "text": "Documentos enviados por email lento"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas fabricam documentos históricos falsos, vendendo-os para colecionadores e pesquisadores desavisados.",
+    "interests": [
+      "História",
+      "Moda e Estilo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que fraude pode ocorrer em perfis de falsos psicólogos nas redes sociais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Postagens de citações falsas"
+      },
+      {
+        "label": "B",
+        "text": "Cobrança por consultas inexistentes e uso indevido de dados pessoais"
+      },
+      {
+        "label": "C",
+        "text": "Compartilhamento de artigos científicos verdadeiros"
+      },
+      {
+        "label": "D",
+        "text": "Divulgação de palestras gratuitas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Perfis falsos podem cobrar por consultas que não existem e ainda utilizar dados pessoais para outros golpes.",
+    "interests": [
+      "Leitura",
+      "Investimentos",
+      "Ciência",
+      "Psicologia",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que armadilha costuma aparecer em anúncios de consultoria de estilo?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consultores com redes sociais ativas"
+      },
+      {
+        "label": "B",
+        "text": "Promessas exageradas de transformação rápida e cobrança antecipada"
+      },
+      {
+        "label": "C",
+        "text": "Serviços gratuitos em troca de avaliações"
+      },
+      {
+        "label": "D",
+        "text": "Fotos de clientes satisfeitos reais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Muitos anúncios prometem mudanças radicais em pouco tempo, cobrando antes do serviço e entregando pouco ou nada.",
+    "interests": [
+      "Fotografia",
+      "Moda",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Dança",
+      "Moda e Estilo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que golpe usa memes virais para direcionar cliques a sites maliciosos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memes compartilhados em grupos privados"
+      },
+      {
+        "label": "B",
+        "text": "Memes com imagens oficiais de celebridades"
+      },
+      {
+        "label": "C",
+        "text": "Links escondidos em memes que instalam malware ou roubam dados"
+      },
+      {
+        "label": "D",
+        "text": "Memes com legendas educativas"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas usam memes populares para atrair cliques em links maliciosos, infectando dispositivos ou coletando informações pessoais.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Humor",
+      "Cultura Pop",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude é comum durante campanhas eleitorais online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Divulgação de propostas políticas oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Disseminação de notícias falsas (fake news) para manipular eleitores"
+      },
+      {
+        "label": "C",
+        "text": "Divulgação de locais de votação reais"
+      },
+      {
+        "label": "D",
+        "text": "Transmissão ao vivo de debates"
+      }
+    ],
+    "correct": "B",
+    "tip": "Fake news são amplamente usadas para influenciar votos, confundindo eleitores com informações falsas e manipuladoras.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Política",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe é frequente em sites que vendem objetos religiosos supostamente “milagrosos”?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Doações voluntárias para igrejas"
+      },
+      {
+        "label": "B",
+        "text": "Envio de amuletos com bênçãos oficiais"
+      },
+      {
+        "label": "C",
+        "text": "Venda de objetos comuns como milagrosos para enganar compradores"
+      },
+      {
+        "label": "D",
+        "text": "Promoção de cultos online gratuitos"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas vendem objetos comuns, alegando propriedades milagrosas para obter lucro às custas da fé das pessoas.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Artesanato",
+      "Religião",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude pode aparecer em grupos de fãs de séries de TV?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compartilhamento de episódios oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Discussão sobre teorias de personagens"
+      },
+      {
+        "label": "C",
+        "text": "Links para downloads ilegais que instalam vírus"
+      },
+      {
+        "label": "D",
+        "text": "Convites para eventos temáticos legítimos"
+      }
+    ],
+    "correct": "C",
+    "tip": "Grupos podem conter links maliciosos disfarçados de downloads ou spoilers, que prejudicam os usuários ao infectar seus dispositivos.",
+    "interests": [
+      "Tecnologia",
+      "Séries de TV",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que armadilha é comum em plataformas que prometem pagar por ouvir podcasts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não pagamento ou pagamento atrasado aos ouvintes"
+      },
+      {
+        "label": "B",
+        "text": "Oferecer podcasts com conteúdo exclusivo"
+      },
+      {
+        "label": "C",
+        "text": "Divulgação de podcasts patrocinados"
+      },
+      {
+        "label": "D",
+        "text": "Uso de playlists personalizadas"
+      }
+    ],
+    "correct": "A",
+    "tip": "Plataformas falsas atraem usuários prometendo remuneração por ouvir podcasts, mas não realizam os pagamentos conforme prometido.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Podcasts"
+    ]
+  },
+  {
+    "question": "Que fraude é comum em vendas de itens colecionáveis da cultura pop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos com embalagem danificada"
+      },
+      {
+        "label": "B",
+        "text": "Vendas com frete grátis para grandes pedidos"
+      },
+      {
+        "label": "C",
+        "text": "Produtos falsificados ou não entregues após pagamento"
+      },
+      {
+        "label": "D",
+        "text": "Promoção com brindes oficiais"
+      }
+    ],
+    "correct": "C",
+    "tip": "Itens colecionáveis falsificados ou golpes onde o comprador paga, mas não recebe o produto, são frequentes no mercado online.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Empreendedorismo",
+      "Cultura Pop",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de golpe é recorrente em sites de venda de design gráfico “exclusivo”?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Designs com baixa resolução"
+      },
+      {
+        "label": "B",
+        "text": "Venda de arquivos copiados ou não entregues"
+      },
+      {
+        "label": "C",
+        "text": "Uso de fontes gratuitas"
+      },
+      {
+        "label": "D",
+        "text": "Serviços com prazo estendido"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem arquivos de design que foram copiados de outros ou simplesmente não entregam o material após o pagamento.",
+    "interests": [
+      "Games",
+      "Design",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que fraude pode ocorrer em anúncios de projetos de arquitetura falsos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Projetos enviados em papel reciclado"
+      },
+      {
+        "label": "B",
+        "text": "Uso de softwares ilegais"
+      },
+      {
+        "label": "C",
+        "text": "Venda de projetos que nunca serão entregues ou são plagiados"
+      },
+      {
+        "label": "D",
+        "text": "Cobrança de taxa para visita técnica"
+      }
+    ],
+    "correct": "C",
+    "tip": "Projetos falsos são anunciados para captar clientes, mas nunca são entregues, ou são cópias de projetos de terceiros.",
+    "interests": [
+      "Tecnologia",
+      "Arquitetura",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude ocorre com tutoriais DIY que pedem doações antecipadas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Entrega de materiais recicláveis"
+      },
+      {
+        "label": "B",
+        "text": "Tutoriais com áudio ruim"
+      },
+      {
+        "label": "C",
+        "text": "Não entrega do conteúdo prometido após a doação"
+      },
+      {
+        "label": "D",
+        "text": "Tutoriais gratuitos com anúncios"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas pedem doações para liberar tutoriais, mas não fornecem o conteúdo depois do pagamento.",
+    "interests": [
+      "Games",
+      "Investimentos",
+      "Natureza",
+      "Podcasts",
+      "DIY (Faça Você Mesmo)",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe é comum em vendas de kits de jardinagem milagrosos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Kits entregues em embalagens recicladas"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados rápidos e eficazes"
+      },
+      {
+        "label": "C",
+        "text": "Frete grátis condicionado"
+      },
+      {
+        "label": "D",
+        "text": "Kits com sementes comuns"
+      }
+    ],
+    "correct": "B",
+    "tip": "Muitos kits prometem crescimento milagroso das plantas, mas não cumprem essas promessas, enganando compradores.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Empreendedorismo",
+      "Religião",
+      "Jardinagem"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude pode ocorrer em cursos de educação online gratuitos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Captura de dados pessoais para uso indevido"
+      },
+      {
+        "label": "B",
+        "text": "Vídeos com legendas automáticas"
+      },
+      {
+        "label": "C",
+        "text": "Disponibilidade limitada de módulos"
+      },
+      {
+        "label": "D",
+        "text": "Uso de professores temporários"
+      }
+    ],
+    "correct": "A",
+    "tip": "Cursos gratuitos podem ser usados para coletar dados pessoais dos inscritos para venda ou uso em golpes posteriores.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Culinária",
+      "Dança",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Que fraude é comum em ofertas de cursos de programação ultra-rápidos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Conteúdo didático simplificado"
+      },
+      {
+        "label": "B",
+        "text": "Promessas irreais de aprendizado em pouco tempo com conteúdo superficial"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com exercícios práticos"
+      },
+      {
+        "label": "D",
+        "text": "Disponibilidade 24/7 do material"
+      }
+    ],
+    "correct": "B",
+    "tip": "Muitos cursos prometem aprendizado completo e rápido, mas entregam conteúdo raso que não prepara adequadamente o aluno.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que golpe pode afetar quem contrata serviços falsos de inteligência artificial?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software de código aberto gratuito"
+      },
+      {
+        "label": "B",
+        "text": "Venda de soluções que não funcionam ou são fraudulentas"
+      },
+      {
+        "label": "C",
+        "text": "Consultoria técnica real com preço justo"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas de teste grátis"
+      }
+    ],
+    "correct": "B",
+    "tip": "Empresas ou pessoas vendem soluções falsas ou ineficazes, causando prejuízo financeiro e atraso em projetos.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Empreendedorismo",
+      "Ciência",
+      "Arquitetura",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que fraude é comum em suplementos de “saúde e bem-estar” vendidos via redes sociais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos certificados por órgãos oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Preços competitivos em lojas físicas"
+      },
+      {
+        "label": "C",
+        "text": "Produtos sem comprovação científica e com riscos à saúde"
+      },
+      {
+        "label": "D",
+        "text": "Promoções com descontos reais"
+      }
+    ],
+    "correct": "C",
+    "tip": "Suplementos vendidos em redes sociais frequentemente não têm eficácia comprovada e podem causar efeitos adversos.",
+    "interests": [
+      "Meditação",
+      "Animais",
+      "Ciência",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de golpe ocorre em vendas de drones “profissionais” com câmera de alta resolução?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Garantia estendida por fabricantes oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Assistência técnica 24 horas"
+      },
+      {
+        "label": "C",
+        "text": "Venda de drones falsificados ou com especificações falsas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas com acessórios originais"
+      }
+    ],
+    "correct": "C",
+    "tip": "Golpistas anunciam drones profissionais com câmeras de alta qualidade, mas entregam produtos falsificados ou inferiores ao prometido.",
+    "interests": [
+      "Fotografia",
+      "Investimentos",
+      "Empreendedorismo",
+      "Dança",
+      "Inteligência Artificial",
+      "Fotografia com Drone"
+    ]
+  },
+  {
+    "question": "Qual é o golpe mais comum via WhatsApp que se passa por uma empresa conhecida?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mensagens de boas-vindas oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Golpe do WhatsApp Business falso pedindo código de verificação"
+      },
+      {
+        "label": "C",
+        "text": "Envio de catálogos de produtos"
+      },
+      {
+        "label": "D",
+        "text": "Notificações de atualização do app"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos que imitam o WhatsApp Business oficial para roubar códigos de verificação e clonar contas.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Empreendedorismo",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza um golpe de phishing por email?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Emails com ofertas legítimas de empresas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Emails falsos que imitam empresas reais para roubar dados pessoais e senhas"
+      },
+      {
+        "label": "C",
+        "text": "Spam com produtos desconhecidos"
+      },
+      {
+        "label": "D",
+        "text": "Newsletters de empresas confiáveis"
+      }
+    ],
+    "correct": "B",
+    "tip": "Phishing usa emails falsos que parecem legítimos para induzir vítimas a fornecer informações confidenciais como senhas e dados bancários.",
+    "interests": [
+      "Investimentos",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe envolve pedir dinheiro urgente se passando por parente ou conhecido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Golpe do sequestro virtual"
+      },
+      {
+        "label": "B",
+        "text": "Golpe do falso parente pedindo dinheiro urgente"
+      },
+      {
+        "label": "C",
+        "text": "Golpe do cartão clonado"
+      },
+      {
+        "label": "D",
+        "text": "Golpe do boleto vencido"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas clonam contas de WhatsApp ou criam perfis falsos se passando por familiares para pedir dinheiro urgente.",
+    "interests": [
+      "Tecnologia",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do PIX fantasma?",
+    "options": [
+      {
+        "label": "A",
+        "text": "PIX enviado para conta errada"
+      },
+      {
+        "label": "B",
+        "text": "Cobrança falsa de PIX que nunca foi feito"
+      },
+      {
+        "label": "C",
+        "text": "PIX com valor acima do esperado"
+      },
+      {
+        "label": "D",
+        "text": "PIX com comprovante duplicado"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas enviam comprovantes falsos de PIX que nunca foram realizados, pedindo confirmação ou reembolso.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete trabalho fácil e renda rápida pela internet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Golpe do emprego falso ou esquema de pirâmide financeira"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas legítimas de trabalho remoto"
+      },
+      {
+        "label": "C",
+        "text": "Cursos de capacitação profissional"
+      },
+      {
+        "label": "D",
+        "text": "Plataformas de freelancer conhecidas"
+      }
+    ],
+    "correct": "A",
+    "tip": "Golpistas prometem ganhos fáceis cobrando taxas de adesão ou pedindo depósitos iniciais, sem entregar trabalho real.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos em redes sociais para se relacionar e pedir dinheiro?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Golpe do romance ou catfish"
+      },
+      {
+        "label": "B",
+        "text": "Perfis de empresas legítimas"
+      },
+      {
+        "label": "C",
+        "text": "Grupos de interesse comum"
+      },
+      {
+        "label": "D",
+        "text": "Páginas de entretenimento"
+      }
+    ],
+    "correct": "A",
+    "tip": "Golpistas criam perfis falsos atraentes, desenvolvem relacionamento virtual e depois pedem dinheiro com desculpas falsas.",
+    "interests": [
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe usa links maliciosos em mensagens de texto para roubar dados?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Links de redes sociais legítimas"
+      },
+      {
+        "label": "B",
+        "text": "Golpe de smishing com links falsos que instalam malware"
+      },
+      {
+        "label": "C",
+        "text": "Links de verificação de segurança"
+      },
+      {
+        "label": "D",
+        "text": "Links de promoções oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Smishing usa mensagens SMS com links que parecem legítimos, mas direcionam para sites maliciosos que roubam informações.",
+    "interests": [
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do boleto falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Boleto com valor correto mas código de barras errado"
+      },
+      {
+        "label": "B",
+        "text": "Boleto fraudulento que direciona pagamento para conta de golpista"
+      },
+      {
+        "label": "C",
+        "text": "Boleto vencido com juros"
+      },
+      {
+        "label": "D",
+        "text": "Boleto de segunda via legítimo"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas enviam boletos falsos com códigos de barras alterados, fazendo o pagamento ir para contas controladas por eles.",
+    "interests": [
+      "Games",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete prêmios ou valores em dinheiro para quem clicar em links?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Promoções legítimas de empresas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Golpe de prêmio falso que rouba dados ou instala vírus"
+      },
+      {
+        "label": "C",
+        "text": "Sorteios oficiais registrados"
+      },
+      {
+        "label": "D",
+        "text": "Campanhas publicitárias verificadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem prêmios falsos para atrair cliques em links maliciosos que roubam informações pessoais ou instalam malware.",
+    "interests": [
+      "Investimentos",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de bancos para roubar senhas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites de bancos oficiais com manutenção"
+      },
+      {
+        "label": "B",
+        "text": "Phishing bancário com sites clonados"
+      },
+      {
+        "label": "C",
+        "text": "Aplicativos oficiais dos bancos"
+      },
+      {
+        "label": "D",
+        "text": "Páginas de informações bancárias"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam cópias perfeitas de sites bancários para roubar login, senha e dados bancários dos usuários.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe pede dinheiro para liberar um suposto prêmio ou resgate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Golpe do prêmio que exige pagamento antecipado"
+      },
+      {
+        "label": "B",
+        "text": "Taxa de envio de prêmios legítimos"
+      },
+      {
+        "label": "C",
+        "text": "Impostos sobre prêmios conforme lei"
+      },
+      {
+        "label": "D",
+        "text": "Seguro de transporte de prêmios"
+      }
+    ],
+    "correct": "A",
+    "tip": "Golpistas anunciam prêmios falsos e pedem dinheiro para taxas, impostos ou envio, mas o prêmio nunca existe.",
+    "interests": [
+      "Viagens",
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do cartão de crédito clonado?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uso legítimo de cartão em estabelecimentos seguros"
+      },
+      {
+        "label": "B",
+        "text": "Roubo de dados do cartão para fazer compras fraudulentas"
+      },
+      {
+        "label": "C",
+        "text": "Pedido de segunda via do cartão"
+      },
+      {
+        "label": "D",
+        "text": "Atualização de dados cadastrais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas roubam dados do cartão através de sites falsos, skimmers ou phishing para fazer compras não autorizadas.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete aumentar seguidores ou curtidas em redes sociais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ferramentas legítimas de marketing digital"
+      },
+      {
+        "label": "B",
+        "text": "Golpe de seguidores falsos que cobram e não entregam ou usam bots"
+      },
+      {
+        "label": "C",
+        "text": "Campanhas orgânicas de crescimento"
+      },
+      {
+        "label": "D",
+        "text": "Parcerias com influenciadores reais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem seguidores reais, mas cobram e não entregam ou usam bots que podem resultar em bloqueio da conta.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Desenvolvimento Pessoal",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar apps falsos que imitam aplicativos legítimos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apps oficiais de lojas de aplicativos"
+      },
+      {
+        "label": "B",
+        "text": "Apps falsos que roubam dados e senhas"
+      },
+      {
+        "label": "C",
+        "text": "Versões beta de aplicativos"
+      },
+      {
+        "label": "D",
+        "text": "Atualizações oficiais de apps"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam cópias de apps populares para roubar informações de login, dados bancários e informações pessoais.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do marketplace com produtos superfaturados?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos com preços competitivos de mercado"
+      },
+      {
+        "label": "B",
+        "text": "Venda de produtos com preços muito abaixo do mercado para atrair compradores que nunca recebem o produto"
+      },
+      {
+        "label": "C",
+        "text": "Ofertas de desconto legítimas"
+      },
+      {
+        "label": "D",
+        "text": "Promoções sazonais oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam produtos com preços muito baixos para atrair compradores, recebem o pagamento e nunca enviam o produto.",
+    "interests": [
+      "Games",
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe usa QR codes maliciosos para roubar dados?",
+    "options": [
+      {
+        "label": "A",
+        "text": "QR codes oficiais de estabelecimentos"
+      },
+      {
+        "label": "B",
+        "text": "QR codes falsos que direcionam para sites maliciosos"
+      },
+      {
+        "label": "C",
+        "text": "QR codes de menu de restaurantes"
+      },
+      {
+        "label": "D",
+        "text": "QR codes de pagamento PIX legítimos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam QR codes que parecem legítimos, mas ao escanear direcionam para sites falsos que roubam informações.",
+    "interests": [
+      "Gastronomia",
+      "Games",
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de influencers para promover produtos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parcerias legítimas de influenciadores reais"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que promovem produtos fraudulentos ou inexistentes"
+      },
+      {
+        "label": "C",
+        "text": "Contas verificadas de marcas"
+      },
+      {
+        "label": "D",
+        "text": "Anúncios patrocinados oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos que imitam influencers famosos para vender produtos falsos ou roubar dados de seguidores.",
+    "interests": [
+      "Leitura",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do empréstimo online com taxa antecipada?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Empréstimos legítimos de instituições financeiras regulamentadas"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que pede pagamento antecipado para liberar empréstimo que nunca será aprovado"
+      },
+      {
+        "label": "C",
+        "text": "Taxas de análise de crédito oficiais"
+      },
+      {
+        "label": "D",
+        "text": "Seguros obrigatórios de empréstimo"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem empréstimos fáceis, mas pedem taxas ou depósitos antecipados e nunca liberam o dinheiro.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete recuperar dinheiro de investimentos perdidos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Serviços legítimos de recuperação de crédito"
+      },
+      {
+        "label": "B",
+        "text": "Golpe de recuperação falsa que cobra taxas sem recuperar nada"
+      },
+      {
+        "label": "C",
+        "text": "Consultorias financeiras regulamentadas"
+      },
+      {
+        "label": "D",
+        "text": "Processos legais de recuperação"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem recuperar dinheiro de investimentos fraudulentos, cobrando taxas altas sem conseguir recuperar nada.",
+    "interests": [
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de compras coletivas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites legítimos de compras coletivas conhecidos"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem cupons inválidos ou não entregam produtos"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de empresas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas de desconto verificadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites que parecem de compras coletivas legítimas, vendem cupons que não funcionam ou produtos que nunca são entregues.",
+    "interests": [
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do anúncio de carro com preço muito abaixo do mercado?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ofertas legítimas de concessionárias"
+      },
+      {
+        "label": "B",
+        "text": "Anúncios falsos que pedem sinal ou dados bancários para veículos que não existem"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de fim de ano"
+      },
+      {
+        "label": "D",
+        "text": "Leilões oficiais de veículos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam carros com preços muito baixos, pedem sinal ou dados para reservar veículos que nunca existiram.",
+    "interests": [
+      "Viagens",
+      "Carros",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete ganhar dinheiro apenas assistindo vídeos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Programas legítimos de cashback"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que promete pagamento por assistir, mas cobra taxas ou rouba dados"
+      },
+      {
+        "label": "C",
+        "text": "Plataformas de streaming pagas"
+      },
+      {
+        "label": "D",
+        "text": "Serviços de assinatura de vídeos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem pagamento fácil por assistir vídeos, mas cobram taxas de cadastro ou roubam dados pessoais.",
+    "interests": [
+      "Tecnologia",
+      "Música",
+      "Games",
+      "Culinária"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de empresas de delivery?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apps oficiais de delivery conhecidos"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que pedem dados bancários ou fazem cobranças indevidas"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de restaurantes"
+      },
+      {
+        "label": "D",
+        "text": "Cupons de desconto verificados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos imitando empresas de delivery para roubar dados de cartão ou fazer cobranças indevidas.",
+    "interests": [
+      "Tecnologia",
+      "Gastronomia",
+      "Meditação",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso online com certificado falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de instituições reconhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem certificados válidos mas emitem documentos falsos ou sem valor"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com certificados digitais verificáveis"
+      },
+      {
+        "label": "D",
+        "text": "Formações acadêmicas oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo certificados válidos, mas emitem documentos falsos que não têm reconhecimento oficial.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "História",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete aumentar o limite do cartão de crédito?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aumento de limite legítimo pelo banco"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que pede dados do cartão e senha para supostamente aumentar o limite"
+      },
+      {
+        "label": "C",
+        "text": "Solicitação de aumento através do app do banco"
+      },
+      {
+        "label": "D",
+        "text": "Análise de crédito oficial"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas ligam ou enviam mensagens se passando por bancos, pedindo dados do cartão para aumentar o limite, mas roubam as informações.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar grupos falsos de investimento em criptomoedas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grupos legítimos de discussão sobre criptomoedas"
+      },
+      {
+        "label": "B",
+        "text": "Grupos falsos que prometem ganhos garantidos e roubam dinheiro dos investidores"
+      },
+      {
+        "label": "C",
+        "text": "Educação financeira sobre criptomoedas"
+      },
+      {
+        "label": "D",
+        "text": "Plataformas regulamentadas de trading"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam grupos que prometem ganhos garantidos em criptomoedas, coletam investimentos e desaparecem com o dinheiro.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do aluguel de imóvel com preço muito abaixo do mercado?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aluguéis legítimos com preços competitivos"
+      },
+      {
+        "label": "B",
+        "text": "Anúncios falsos que pedem depósito ou sinal para imóveis que não existem ou não estão disponíveis"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de imobiliárias conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas de temporada"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam imóveis com aluguel muito barato, pedem depósito ou sinal para apartamentos que não existem ou não estão alugando.",
+    "interests": [
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete reembolso de impostos através de links falsos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reembolso legítimo através do site oficial da Receita Federal"
+      },
+      {
+        "label": "B",
+        "text": "Links falsos que imitam sites oficiais para roubar dados e CPF"
+      },
+      {
+        "label": "C",
+        "text": "Notificações oficiais por email da Receita"
+      },
+      {
+        "label": "D",
+        "text": "Consultas públicas de CPF"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas enviam links falsos que parecem do governo, prometendo reembolso, mas roubam dados pessoais e senhas.",
+    "interests": [
+      "Gastronomia",
+      "Investimentos",
+      "Culinária",
+      "Política",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de veterinários online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consultas online legítimas de veterinários registrados"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que cobram consultas e dão orientações erradas ou perigosas"
+      },
+      {
+        "label": "C",
+        "text": "Dicas gerais de cuidado com animais"
+      },
+      {
+        "label": "D",
+        "text": "Informações de clínicas veterinárias reais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos de veterinários, cobram por consultas e podem dar orientações perigosas que prejudicam os animais.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Animais",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do seguro de celular falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Seguros legítimos oferecidos por operadoras"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas falsas de seguro que cobram valores mas não cobrem danos"
+      },
+      {
+        "label": "C",
+        "text": "Planos de seguro de aparelhos reconhecidos"
+      },
+      {
+        "label": "D",
+        "text": "Garantias estendidas oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas oferecem seguros de celular com preços muito baixos, cobram valores mas não honram quando o aparelho quebra.",
+    "interests": [
+      "Tecnologia",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete doar animais e pede dinheiro para transporte?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adoções legítimas de ONGs conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que anuncia animais para doação e pede dinheiro para transporte de animais que não existem"
+      },
+      {
+        "label": "C",
+        "text": "Taxas legítimas de adoção em abrigos"
+      },
+      {
+        "label": "D",
+        "text": "Doações voluntárias para ONGs verificadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam animais para doação, usam fotos de animais que não têm, e pedem dinheiro para transporte que nunca acontece.",
+    "interests": [
+      "Fotografia",
+      "Viagens",
+      "Investimentos",
+      "Natureza",
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de compra de passagens aéreas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de companhias aéreas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem passagens inexistentes ou roubam dados de cartão"
+      },
+      {
+        "label": "C",
+        "text": "Agências de viagem regulamentadas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de última hora"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites que imitam companhias aéreas, vendem passagens que não existem ou roubam dados de pagamento.",
+    "interests": [
+      "Leitura",
+      "Viagens",
+      "Games",
+      "Inteligência Artificial",
+      "Fotografia com Drone"
+    ]
+  },
+  {
+    "question": "O que é o golpe do aplicativo de banco falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apps oficiais baixados de lojas oficiais"
+      },
+      {
+        "label": "B",
+        "text": "Apps falsos que imitam bancos reais para roubar login e senha"
+      },
+      {
+        "label": "C",
+        "text": "Atualizações oficiais de apps bancários"
+      },
+      {
+        "label": "D",
+        "text": "Versões beta de aplicativos bancários"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam apps falsos que parecem oficiais dos bancos, roubam login, senha e dados bancários dos usuários.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete ganhar dinheiro compartilhando links nas redes sociais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Programas legítimos de afiliados"
+      },
+      {
+        "label": "B",
+        "text": "Esquemas de pirâmide que prometem ganhos por compartilhar links"
+      },
+      {
+        "label": "C",
+        "text": "Campanhas publicitárias oficiais"
+      },
+      {
+        "label": "D",
+        "text": "Parcerias verificadas de marketing"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem ganhos fáceis por compartilhar links, mas é um esquema de pirâmide onde só quem está no topo ganha.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de empresas de telefonia?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Atendimento oficial de operadoras conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que pedem dados pessoais e senhas para supostamente resolver problemas"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de planos"
+      },
+      {
+        "label": "D",
+        "text": "Canais verificados de atendimento"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos que imitam operadoras, pedem dados pessoais e senhas para supostamente resolver problemas, mas roubam informações.",
+    "interests": [
+      "Investimentos",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do sorteio de iPhone ou celular caro?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sorteios legítimos de empresas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sorteios falsos que pedem dados pessoais, compartilhamento ou pagamento para participar"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais registradas"
+      },
+      {
+        "label": "D",
+        "text": "Campanhas verificadas de marketing"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sorteios falsos prometendo celulares caros, pedem dados, compartilhamentos ou pagamentos, mas nunca há prêmio.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete aumentar o score de crédito rapidamente?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consultoria legítima de educação financeira"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que promete aumentar score cobrando taxas mas não consegue alterar o histórico"
+      },
+      {
+        "label": "C",
+        "text": "Serviços oficiais de análise de crédito"
+      },
+      {
+        "label": "D",
+        "text": "Programas de renegociação de dívidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem aumentar o score de crédito rapidamente cobrando taxas, mas não conseguem alterar o histórico de crédito das pessoas.",
+    "interests": [
+      "Tecnologia",
+      "História",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de lojas de roupas famosas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de marcas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem produtos falsificados ou não entregam compras"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de marcas"
+      },
+      {
+        "label": "D",
+        "text": "Outlet legítimo de lojas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites que imitam lojas famosas, vendem produtos falsificados ou cobram por compras que nunca são enviadas.",
+    "interests": [
+      "Moda",
+      "Moda e Estilo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do recadastramento bancário por telefone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Atualização de dados através do app do banco"
+      },
+      {
+        "label": "B",
+        "text": "Ligações falsas se passando por bancos pedindo dados pessoais e senhas para recadastramento"
+      },
+      {
+        "label": "C",
+        "text": "Atendimento oficial de bancos"
+      },
+      {
+        "label": "D",
+        "text": "Notificações de segurança legítimas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas ligam se passando por funcionários de bancos, pedem dados pessoais e senhas alegando necessidade de recadastramento.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Meditação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza milagrosos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos legítimos de limpeza testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de eficácia que não funcionam como anunciado"
+      },
+      {
+        "label": "C",
+        "text": "Detergentes com selo de qualidade"
+      },
+      {
+        "label": "D",
+        "text": "Produtos certificados por órgãos oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos de limpeza com promessas exageradas de eficácia, cobram valores altos mas os produtos não funcionam como anunciado.",
+    "interests": [
+      "Religião",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de eletrônicos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de eletrônicos conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem produtos usados como novos ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Outlet legítimo de eletrônicos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo eletrônicos com preços baixos, mas entregam produtos usados ou não enviam nada após pagamento.",
+    "interests": [
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de inglês com certificado internacional falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de escolas de idiomas reconhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem certificados internacionais mas emitem documentos falsos sem validade"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com certificação oficial verificável"
+      },
+      {
+        "label": "D",
+        "text": "Formações reconhecidas internacionalmente"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo certificados internacionais válidos, mas emitem documentos falsos que não têm reconhecimento.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "História",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete consertar celular e pede pagamento antecipado?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assistências técnicas oficiais de fabricantes"
+      },
+      {
+        "label": "B",
+        "text": "Golpe que promete conserto rápido mas cobra adiantado e não conserta ou devolve o aparelho"
+      },
+      {
+        "label": "C",
+        "text": "Orçamentos legítimos de assistências"
+      },
+      {
+        "label": "D",
+        "text": "Garantias oficiais de aparelhos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem consertar celulares rapidamente, pedem pagamento antecipado e não fazem o conserto ou devolvem o aparelho em pior estado.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "DIY (Faça Você Mesmo)",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de doação para causas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de ONGs conhecidas e verificadas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que criam campanhas de doação para causas que não existem ou desviam dinheiro"
+      },
+      {
+        "label": "C",
+        "text": "Campanhas legítimas de arrecadação"
+      },
+      {
+        "label": "D",
+        "text": "Doações verificadas para instituições"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos de campanhas de doação, usam histórias falsas para comover pessoas e desviam o dinheiro arrecadado.",
+    "interests": [
+      "Investimentos",
+      "Natureza",
+      "História",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do contrato de trabalho falso que pede documentos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ofertas legítimas de emprego de empresas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas falsas que pedem documentos pessoais e depois usam para falsificação ou roubo de identidade"
+      },
+      {
+        "label": "C",
+        "text": "Processos seletivos oficiais"
+      },
+      {
+        "label": "D",
+        "text": "Cadastros em plataformas de emprego"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam ofertas falsas de emprego, pedem documentos pessoais como RG e CPF, e usam para falsificar identidade ou abrir contas.",
+    "interests": [
+      "Tecnologia",
+      "Empreendedorismo",
+      "História",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos importados muito baratos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Importações legítimas com preços competitivos"
+      },
+      {
+        "label": "B",
+        "text": "Anúncios falsos que vendem produtos falsificados ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de importadoras"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas de produtos internacionais reais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam produtos importados com preços muito abaixo do mercado, mas vendem falsificações ou não enviam nada após pagamento.",
+    "interests": [
+      "Games",
+      "Investimentos",
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de advogados?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Advogados registrados na OAB"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que cobram honorários sem prestar serviços ou dão orientações jurídicas falsas"
+      },
+      {
+        "label": "C",
+        "text": "Consultorias jurídicas legítimas"
+      },
+      {
+        "label": "D",
+        "text": "Serviços de escritórios de advocacia reais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos de advogados, cobram honorários e não prestam serviços ou dão orientações jurídicas incorretas.",
+    "interests": [
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do consórcio falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consórcios legítimos regulamentados pela CVM"
+      },
+      {
+        "label": "B",
+        "text": "Esquemas falsos que prometem contemplação rápida e cobram taxas sem entregar bens"
+      },
+      {
+        "label": "C",
+        "text": "Administradoras de consórcio conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Grupos de consórcio oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam esquemas falsos de consórcio, prometem contemplação rápida, cobram taxas e nunca entregam os bens prometidos.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete aumentar vendas online com técnicas secretas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de marketing digital"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem fórmulas secretas mas vendem informações genéricas ou falsas"
+      },
+      {
+        "label": "C",
+        "text": "Consultorias de marketing verificadas"
+      },
+      {
+        "label": "D",
+        "text": "Ferramentas oficiais de e-commerce"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo fórmulas secretas para aumentar vendas, mas apenas cobram valores altos por informações genéricas ou falsas.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de lojas de móveis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de móveis conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem móveis que nunca são entregues ou entregam produtos de qualidade inferior"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de móveis planejados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites que imitam lojas de móveis, cobram por móveis que nunca são entregues ou enviam produtos de qualidade muito inferior.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do teste de produto gratuito que vira assinatura?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Testes gratuitos legítimos de produtos"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas de teste gratuito que automaticamente viram assinatura paga difícil de cancelar"
+      },
+      {
+        "label": "C",
+        "text": "Amostras grátis sem compromisso"
+      },
+      {
+        "label": "D",
+        "text": "Promoções de lançamento de produtos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas oferecem testes gratuitos, mas automaticamente convertem em assinatura paga e dificultam o cancelamento.",
+    "interests": [
+      "Ciência"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de beleza com resultados milagrosos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de beleza testados e aprovados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados que não funcionam ou causam problemas de saúde"
+      },
+      {
+        "label": "C",
+        "text": "Cosméticos com registro na Anvisa"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de marcas conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos de beleza com promessas exageradas, cobram valores altos mas os produtos não funcionam ou podem causar problemas.",
+    "interests": [
+      "Religião",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de personal trainers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Personal trainers certificados e registrados"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem planos de treino genéricos ou perigosos cobrando valores altos"
+      },
+      {
+        "label": "C",
+        "text": "Treinadores com certificação reconhecida"
+      },
+      {
+        "label": "D",
+        "text": "Aulas presenciais de academias"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos de personal trainers, vendem planos genéricos ou perigosos sem conhecimento adequado.",
+    "interests": [
+      "Esportes",
+      "Dança",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do crédito consignado falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Crédito consignado legítimo de instituições financeiras"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas falsas que pedem documentos e taxas antecipadas para empréstimo que nunca será aprovado"
+      },
+      {
+        "label": "C",
+        "text": "Crédito oferecido por bancos conhecidos"
+      },
+      {
+        "label": "D",
+        "text": "Linhas de crédito oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem crédito consignado fácil, pedem documentos e taxas antecipadas, mas nunca aprovam o empréstimo.",
+    "interests": [
+      "História",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de tecnologia com especificações falsas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de tecnologia com especificações reais"
+      },
+      {
+        "label": "B",
+        "text": "Anúncios que vendem produtos com especificações superiores às reais, entregando produtos inferiores"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Tecnologia com garantia oficial"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam produtos de tecnologia com especificações superiores, cobram valores altos mas entregam produtos muito inferiores.",
+    "interests": [
+      "Tecnologia",
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de imóveis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de imobiliárias conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que anunciam imóveis que não existem ou não estão à venda, pedindo sinal ou documentos"
+      },
+      {
+        "label": "C",
+        "text": "Listagens de imóveis verificadas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de imobiliárias"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos anunciando imóveis com preços baixos, pedem sinal ou documentos para imóveis que não existem.",
+    "interests": [
+      "História",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de criptomoedas que promete ganhos garantidos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos educacionais sobre criptomoedas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem ganhos garantidos mas ensinam estratégias falsas ou roubam investimentos"
+      },
+      {
+        "label": "C",
+        "text": "Educação financeira sobre blockchain"
+      },
+      {
+        "label": "D",
+        "text": "Cursos de análise técnica legítimos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo ganhos garantidos em criptomoedas, mas ensinam estratégias falsas ou roubam investimentos dos alunos.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de saúde com resultados imediatos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Suplementos registrados na Anvisa"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados rápidos que não funcionam ou são perigosos"
+      },
+      {
+        "label": "C",
+        "text": "Medicamentos com prescrição médica"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de farmácias conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos de saúde com promessas falsas, cobram valores altos mas os produtos não funcionam ou podem ser perigosos.",
+    "interests": [
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de médicos online?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Telemedicina legítima de médicos registrados no CRM"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que cobram consultas e dão diagnósticos ou receitas falsas perigosas"
+      },
+      {
+        "label": "C",
+        "text": "Consultas online de clínicas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Atendimento de profissionais certificados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos de médicos, cobram por consultas e podem dar diagnósticos ou receitas falsas que colocam a saúde em risco.",
+    "interests": [
+      "Tecnologia",
+      "Gastronomia",
+      "Culinária",
+      "Dança",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do financiamento de veículo com taxa zero falsa?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Financiamentos legítimos de concessionárias"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas falsas que prometem taxa zero mas cobram valores escondidos ou pedem depósitos antecipados"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de financiamento"
+      },
+      {
+        "label": "D",
+        "text": "Linhas de crédito de bancos conhecidos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas prometem financiamento com taxa zero, mas cobram valores escondidos ou pedem depósitos que nunca são devolvidos.",
+    "interests": [
+      "Carros",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de pele instantânea?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de pele testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados instantâneos que não funcionam ou causam irritação"
+      },
+      {
+        "label": "C",
+        "text": "Cosméticos com registro na Anvisa"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de marcas conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza instantânea de pele, cobram valores altos mas os produtos não funcionam ou causam problemas.",
+    "interests": []
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de cursos universitários?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de universidades conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem cursos universitários que não existem ou não são reconhecidos"
+      },
+      {
+        "label": "C",
+        "text": "Cursos de extensão de universidades reais"
+      },
+      {
+        "label": "D",
+        "text": "Formações acadêmicas oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo cursos universitários, cobram mensalidades mas os cursos não existem ou não têm reconhecimento.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do seguro de vida falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Seguros legítimos de seguradoras conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Ofertas falsas de seguro que cobram valores mas não cobrem eventos ou não pagam indenizações"
+      },
+      {
+        "label": "C",
+        "text": "Planos de seguro regulamentados"
+      },
+      {
+        "label": "D",
+        "text": "Seguros de seguradoras oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas oferecem seguros de vida com preços baixos, cobram valores mas não cobrem eventos ou não pagam indenizações quando necessário.",
+    "interests": [
+      "Investimentos",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de emagrecimento sem esforço?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de emagrecimento com acompanhamento médico"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de emagrecimento sem dieta ou exercício que não funcionam ou são perigosos"
+      },
+      {
+        "label": "C",
+        "text": "Suplementos registrados na Anvisa"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de farmácias conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo emagrecimento sem esforço, cobram valores altos mas os produtos não funcionam ou podem ser perigosos para a saúde.",
+    "interests": [
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de nutricionistas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nutricionistas registrados no CRN"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem dietas genéricas ou perigosas cobrando valores altos"
+      },
+      {
+        "label": "C",
+        "text": "Consultas de nutricionistas certificados"
+      },
+      {
+        "label": "D",
+        "text": "Atendimento de profissionais qualificados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos de nutricionistas, vendem dietas genéricas ou perigosas sem conhecimento adequado, colocando a saúde em risco.",
+    "interests": [
+      "Dança",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de investimentos que promete retorno garantido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos educacionais sobre investimentos"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem retornos garantidos mas ensinam estratégias falsas ou roubam investimentos"
+      },
+      {
+        "label": "C",
+        "text": "Educação financeira de instituições conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Cursos de análise de mercado legítimos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo retornos garantidos, mas ensinam estratégias falsas ou roubam investimentos dos alunos.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de cabelo com crescimento rápido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de cabelo testados e aprovados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de crescimento rápido que não funcionam ou causam danos"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Tratamentos capilares de salões"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo crescimento rápido de cabelo, cobram valores altos mas os produtos não funcionam ou podem danificar o cabelo.",
+    "interests": [
+      "Desenvolvimento Pessoal"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de ingressos para shows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de venda de ingressos conhecidos"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem ingressos que não existem ou são clonados, não permitindo entrada no evento"
+      },
+      {
+        "label": "C",
+        "text": "Vendas oficiais de produtoras"
+      },
+      {
+        "label": "D",
+        "text": "Ingressos de revendas autorizadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo ingressos para shows, cobram valores mas os ingressos não existem ou são clonados e não permitem entrada.",
+    "interests": [
+      "Esportes",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de idiomas com professor nativo falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos com professores nativos certificados"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem professores nativos mas usam professores não qualificados ou gravam aulas genéricas"
+      },
+      {
+        "label": "C",
+        "text": "Cursos de escolas de idiomas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Aulas com professores certificados"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo professores nativos, mas usam professores não qualificados ou aulas gravadas genéricas.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Dança",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de academia com resultados garantidos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Suplementos registrados na Anvisa"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados garantidos que não funcionam ou são perigosos"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas de fitness"
+      },
+      {
+        "label": "D",
+        "text": "Suplementos com orientação de nutricionistas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo resultados garantidos na academia, cobram valores altos mas os produtos não funcionam ou podem ser perigosos.",
+    "interests": [
+      "Esportes",
+      "Inteligência Artificial",
+      "Saúde e Bem-Estar"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de animais?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de produtos para animais conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem produtos para animais que não são entregues ou são de qualidade inferior"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de pet shops conhecidos"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de marcas reconhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo produtos para animais, cobram valores mas não enviam os produtos ou enviam itens de qualidade inferior.",
+    "interests": [
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de música online com certificado falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de escolas de música conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem certificados válidos mas emitem documentos falsos sem reconhecimento"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com certificação verificável"
+      },
+      {
+        "label": "D",
+        "text": "Formações musicais oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo certificados válidos, mas emitem documentos falsos que não têm reconhecimento no mercado musical.",
+    "interests": [
+      "Tecnologia",
+      "Música",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "História",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de casa com descontos altos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza com preços competitivos"
+      },
+      {
+        "label": "B",
+        "text": "Anúncios falsos que vendem produtos falsificados ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas de lojas físicas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas anunciam produtos de limpeza com descontos altos, cobram valores mas enviam produtos falsificados ou não enviam nada.",
+    "interests": [
+      "Games",
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de passagens de ônibus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de empresas de ônibus conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem passagens que não existem ou roubam dados de pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Vendas oficiais de rodoviárias"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de empresas de transporte"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo passagens de ônibus, cobram valores mas as passagens não existem ou roubam dados de cartão.",
+    "interests": [
+      "Viagens",
+      "Games",
+      "Empreendedorismo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de programação que promete emprego garantido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de programação de escolas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem emprego garantido mas não conseguem garantir colocação profissional"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com parcerias de empresas reais"
+      },
+      {
+        "label": "D",
+        "text": "Formações técnicas oficiais"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo emprego garantido, cobram valores altos mas não conseguem garantir colocação profissional dos alunos.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de jardinagem com crescimento garantido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de jardinagem testados e aprovados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de crescimento garantido que não funcionam como anunciado"
+      },
+      {
+        "label": "C",
+        "text": "Fertilizantes registrados e aprovados"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de marcas conhecidas de jardinagem"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo crescimento garantido de plantas, cobram valores mas os produtos não funcionam como prometido.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Jardinagem",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de roupas de academia?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de roupas esportivas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem roupas de academia falsificadas ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de marcas esportivas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo roupas de academia, cobram valores mas enviam produtos falsificados ou não enviam nada.",
+    "interests": [
+      "Esportes",
+      "Moda",
+      "Games",
+      "Moda e Estilo",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de fotografia com equipamento incluído falso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos que incluem equipamentos reais"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem equipamentos incluídos mas enviam equipamentos falsos ou não enviam nada"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com parcerias de lojas de fotografia"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de fotografia conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo equipamentos incluídos, cobram valores altos mas enviam equipamentos falsos ou não enviam nada.",
+    "interests": [
+      "Fotografia",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial",
+      "Fotografia com Drone"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza automotiva milagrosos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza automotiva testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de resultados milagrosos que não funcionam ou danificam o veículo"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas de automotivo"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas de autopeças"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza milagrosa de carros, cobram valores mas os produtos não funcionam ou podem danificar o veículo.",
+    "interests": [
+      "Carros",
+      "Religião"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de notebooks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de lojas de informática conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem notebooks usados como novos ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de fabricantes"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de lojas físicas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo notebooks com preços baixos, cobram valores mas enviam produtos usados ou não enviam nada.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de design gráfico com software pirata incluído?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos que ensinam software legal"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem software incluído mas fornecem versões piratas que podem travar ou conter vírus"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com parcerias de empresas de software"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de design conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo software incluído, mas fornecem versões piratas que podem travar o computador ou conter vírus.",
+    "interests": [
+      "Tecnologia",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Design",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de piscina instantânea?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de piscina testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza instantânea que não funcionam ou causam problemas na água"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas de piscina"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas especializadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza instantânea de piscina, cobram valores mas os produtos não funcionam ou causam problemas.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de ferramentas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de ferramentas conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem ferramentas falsificadas ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de marcas de ferramentas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo ferramentas, cobram valores mas enviam produtos falsificados ou não enviam nada.",
+    "interests": [
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de marketing digital que promete clientes garantidos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de marketing digital"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem clientes garantidos mas não conseguem gerar leads reais"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com casos de sucesso reais"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de marketing conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo clientes garantidos, cobram valores altos mas não conseguem gerar leads reais para os alunos.",
+    "interests": [
+      "Tecnologia",
+      "Leitura",
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de vidros sem esforço?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de vidros testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza sem esforço que não funcionam como anunciado"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas de limpeza"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza sem esforço, cobram valores mas os produtos não funcionam como prometido.",
+    "interests": [
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de smartphones?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de lojas de celulares conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem celulares usados como novos ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de fabricantes"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de lojas físicas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo smartphones com preços baixos, cobram valores mas enviam produtos usados ou não enviam nada.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de escrita que promete publicação garantida?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de escrita criativa"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem publicação garantida mas não conseguem publicar os trabalhos dos alunos"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com parcerias de editoras reais"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de escrita conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo publicação garantida, cobram valores altos mas não conseguem publicar os trabalhos dos alunos.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de tapetes instantânea?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de tapetes testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza instantânea que não funcionam ou danificam o tapete"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas especializadas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza instantânea de tapetes, cobram valores mas os produtos não funcionam ou podem danificar.",
+    "interests": [
+      "Animais",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de decoração?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de decoração conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem produtos de decoração que não são entregues ou são de qualidade inferior"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de marcas de decoração"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo produtos de decoração, cobram valores mas não enviam os produtos ou enviam itens de qualidade inferior.",
+    "interests": [
+      "Artesanato",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de vendas que promete aumento de faturamento garantido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de técnicas de vendas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem aumento de faturamento garantido mas não conseguem gerar resultados reais"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com casos de sucesso verificados"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de vendas conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo aumento de faturamento garantido, cobram valores altos mas não conseguem gerar resultados reais.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Educação"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de calçadas sem esforço?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de calçadas testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza sem esforço que não funcionam como anunciado"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas de construção"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza sem esforço de calçadas, cobram valores mas os produtos não funcionam como prometido.",
+    "interests": [
+      "Arquitetura",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de tablets?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de lojas de eletrônicos conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem tablets usados como novos ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de fabricantes"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de lojas físicas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo tablets com preços baixos, cobram valores mas enviam produtos usados ou não enviam nada.",
+    "interests": [
+      "Tecnologia",
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de negócios que promete sucesso empresarial garantido?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de empreendedorismo"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem sucesso empresarial garantido mas ensinam estratégias falsas ou genéricas"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com mentores empresariais reais"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de negócios conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo sucesso empresarial garantido, cobram valores altos mas ensinam estratégias falsas ou genéricas.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Empreendedorismo",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de carros sem esforço?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza automotiva testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza sem esforço que não funcionam ou danificam a pintura"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas de automotivo"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas de autopeças"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza sem esforço de carros, cobram valores mas os produtos não funcionam ou podem danificar a pintura.",
+    "interests": [
+      "Carros"
+    ]
+  },
+  {
+    "question": "Que tipo de fraude envolve criar perfis falsos de lojas de brinquedos?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lojas oficiais de brinquedos conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Perfis falsos que vendem brinquedos falsificados ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções de lojas físicas"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de marcas de brinquedos"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam perfis falsos vendendo brinquedos, cobram valores mas enviam produtos falsificados ou não enviam nada, colocando crianças em risco.",
+    "interests": [
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que caracteriza o golpe do curso de coaching que promete transformação de vida garantida?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos legítimos de desenvolvimento pessoal"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem transformação de vida garantida mas vendem promessas vazias e cobram valores altos"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com coaches certificados"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de coaching reconhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo transformação de vida garantida, cobram valores altos mas vendem apenas promessas vazias sem resultados.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Programação",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "Qual golpe promete vender produtos de limpeza de cozinha instantânea?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produtos de limpeza de cozinha testados"
+      },
+      {
+        "label": "B",
+        "text": "Produtos com promessas falsas de limpeza instantânea que não funcionam ou são tóxicos"
+      },
+      {
+        "label": "C",
+        "text": "Produtos de marcas conhecidas"
+      },
+      {
+        "label": "D",
+        "text": "Produtos de lojas de limpeza"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem produtos prometendo limpeza instantânea de cozinha, cobram valores mas os produtos não funcionam ou podem ser tóxicos.",
+    "interests": []
+  },
+  {
+    "question": "Que tipo de fraude envolve criar sites falsos de venda de smartwatches?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sites oficiais de lojas de relógios conhecidas"
+      },
+      {
+        "label": "B",
+        "text": "Sites falsos que vendem smartwatches falsificados ou não entregam após pagamento"
+      },
+      {
+        "label": "C",
+        "text": "Promoções oficiais de fabricantes"
+      },
+      {
+        "label": "D",
+        "text": "Ofertas legítimas de lojas físicas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas criam sites falsos vendendo smartwatches com preços baixos, cobram valores mas enviam produtos falsificados ou não enviam nada.",
+    "interests": [
+      "Games",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "question": "O que é o golpe do curso de idiomas que promete fluência em 30 dias?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cursos intensivos legítimos de idiomas"
+      },
+      {
+        "label": "B",
+        "text": "Cursos que prometem fluência em 30 dias mas não conseguem entregar resultados reais nesse prazo"
+      },
+      {
+        "label": "C",
+        "text": "Cursos com metodologia comprovada"
+      },
+      {
+        "label": "D",
+        "text": "Formações de escolas de idiomas conhecidas"
+      }
+    ],
+    "correct": "B",
+    "tip": "Golpistas vendem cursos prometendo fluência em 30 dias, cobram valores altos mas é impossível alcançar fluência real nesse prazo.",
+    "interests": [
+      "Desenvolvimento Pessoal",
+      "Investimentos",
+      "Educação",
+      "Inteligência Artificial"
+    ]
+  }
+]

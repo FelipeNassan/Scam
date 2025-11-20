@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Shield, AlertTriangle, TrendingUp, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Shield, AlertTriangle, TrendingUp, ChevronLeft, ChevronRight, Sparkles, Lock, Zap, ArrowRight, LogIn, UserPlus } from 'lucide-react';
 import { StepType } from '../features/SimuladorAntiGolpes';
-import { buttonClass } from '../styles/common';
 
 interface WelcomeProps {
   setStep: (step: StepType) => void;
@@ -93,47 +92,91 @@ const Welcome = ({ setStep }: WelcomeProps) => {
 
   return (
     <motion.div 
-      className="bg-white rounded-lg shadow-lg p-6 flex flex-col gap-5"
+      className="bg-gradient-to-br from-blue-50 via-white to-purple-50 rounded-2xl shadow-2xl p-8 flex flex-col gap-6"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="flex justify-center mb-2">
-        <Shield className="text-blue-600 w-16 h-16" />
+      {/* Header Section */}
+      <motion.div 
+        className="text-center mb-4"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+      >
+        <motion.div 
+          className="flex justify-center mb-4"
+          animate={{ 
+            rotate: [0, 5, -5, 0],
+            scale: [1, 1.05, 1]
+          }}
+          transition={{ 
+            repeat: Infinity, 
+            duration: 3,
+            ease: "easeInOut"
+          }}
+        >
+          <div className="p-4 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl shadow-lg">
+            <Shield className="text-white w-16 h-16" />
+          </div>
+        </motion.div>
+        
+        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
+          Scam
+        </h1>
+        <p className="text-xl md:text-2xl font-semibold text-gray-700 mb-2">
+          Simulador educativo anti-golpes
+        </p>
+        <p className="text-gray-600 text-base md:text-lg">
+          Aprenda a identificar e evitar golpes online com este simulador interativo.
+        </p>
+      </motion.div>
+
+      {/* Action Buttons */}
+      <div className="flex flex-col sm:flex-row gap-4 mb-6">
+        <motion.button 
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-white border-2 border-blue-500 text-blue-600 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all group" 
+          onClick={() => setStep('login')}
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.3 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <LogIn className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          Entrar
+        </motion.button>
+
+        <motion.button 
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all group" 
+          onClick={() => setStep('register')}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.4 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <UserPlus className="w-5 h-5 group-hover:scale-110 transition-transform" />
+          Registrar
+          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </motion.button>
       </div>
-      
-      <h1 className="text-2xl font-bold text-center text-blue-700">
-        Scam<br />Simulador educativo anti-golpes
-      </h1>
-
-      <p className="text-gray-600 text-center">
-        Aprenda a identificar e evitar golpes online com este simulador interativo.
-      </p>
-
-      <motion.button 
-        className={`${buttonClass} bg-white border border-blue-700 text-blue-700 hover:bg-blue-50`} 
-        onClick={() => setStep('login')}
-        whileHover={{ scale: 1.03 }}
-        whileTap={{ scale: 0.98 }}
-      >
-        Entrar
-      </motion.button>
-
-      <motion.button 
-        className={`${buttonClass} bg-blue-700 hover:bg-blue-800 text-white`} 
-        onClick={() => setStep('register')}
-        whileHover={{ scale: 1.03 }}
-        whileTap={{ scale: 0.98 }}
-      >
-        Registrar
-      </motion.button>
 
       {/* Seção de Manchetes sobre Golpes - Carrossel */}
-      <div className="mt-6 pt-6 border-t border-gray-200">
-        <div className="flex items-center gap-2 mb-4">
-          <AlertTriangle className="w-5 h-5 text-red-600" />
-          <h2 className="text-lg font-bold text-gray-800">Notícias sobre Golpes</h2>
-          <TrendingUp className="w-5 h-5 text-orange-600" />
+      <motion.div 
+        className="mt-4 pt-6 border-t-2 border-gray-200"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+      >
+        <div className="flex items-center justify-center gap-3 mb-6">
+          <div className="p-2 bg-red-100 rounded-lg">
+            <AlertTriangle className="w-6 h-6 text-red-600" />
+          </div>
+          <h2 className="text-xl md:text-2xl font-bold text-gray-800">Notícias sobre Golpes</h2>
+          <div className="p-2 bg-orange-100 rounded-lg">
+            <TrendingUp className="w-6 h-6 text-orange-600" />
+          </div>
         </div>
         
         {/* Carrossel */}
@@ -141,19 +184,20 @@ const Welcome = ({ setStep }: WelcomeProps) => {
           <AnimatePresence mode="wait">
             <motion.div
               key={currentNewsIndex}
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -50 }}
-              transition={{ duration: 0.3 }}
-              className={`${colors.bg} border-l-4 ${colors.border} p-4 rounded-r-lg hover:shadow-md transition-shadow`}
+              initial={{ opacity: 0, x: 50, scale: 0.95 }}
+              animate={{ opacity: 1, x: 0, scale: 1 }}
+              exit={{ opacity: 0, x: -50, scale: 0.95 }}
+              transition={{ duration: 0.4 }}
+              className={`${colors.bg} border-l-4 ${colors.border} p-6 rounded-xl hover:shadow-lg transition-all relative overflow-hidden`}
             >
-              <div className="flex items-start gap-3">
-                <div className={`w-2 h-2 ${colors.dot} rounded-full mt-2 flex-shrink-0`}></div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/20 to-transparent rounded-full blur-2xl -mr-16 -mt-16" />
+              <div className="relative z-10 flex items-start gap-4">
+                <div className={`w-3 h-3 ${colors.dot} rounded-full mt-2 flex-shrink-0 shadow-md`}></div>
                 <div className="flex-1">
-                  <p className={`text-sm font-semibold ${colors.text}`}>
+                  <p className={`text-base md:text-lg font-bold ${colors.text} mb-2 leading-tight`}>
                     {currentNews.title}
                   </p>
-                  <p className="text-xs text-gray-600 mt-1">
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     {currentNews.subtitle}
                   </p>
                 </div>
@@ -162,47 +206,64 @@ const Welcome = ({ setStep }: WelcomeProps) => {
           </AnimatePresence>
 
           {/* Botões de Navegação */}
-          <div className="flex items-center justify-between mt-4">
-            <button
+          <div className="flex items-center justify-between mt-6">
+            <motion.button
               onClick={prevNews}
-              className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
+              className="p-3 rounded-xl bg-white border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-md"
               aria-label="Notícia anterior"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
             >
               <ChevronLeft className="w-5 h-5 text-gray-700" />
-            </button>
+            </motion.button>
 
             {/* Indicadores de posição */}
             <div className="flex gap-2">
               {newsItems.map((_, index) => (
-                <button
+                <motion.button
                   key={index}
                   onClick={() => setCurrentNewsIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-all ${
+                  className={`h-2 rounded-full transition-all ${
                     index === currentNewsIndex
-                      ? `${colors.dot} w-6`
-                      : 'bg-gray-300'
+                      ? `${colors.dot} w-8`
+                      : 'bg-gray-300 w-2'
                   }`}
                   aria-label={`Ir para notícia ${index + 1}`}
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
                 />
               ))}
             </div>
 
-            <button
+            <motion.button
               onClick={nextNews}
-              className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
+              className="p-3 rounded-xl bg-white border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-md"
               aria-label="Próxima notícia"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
             >
               <ChevronRight className="w-5 h-5 text-gray-700" />
-            </button>
+            </motion.button>
           </div>
         </div>
 
-        <div className="mt-4 p-3 bg-gray-100 rounded-lg text-center">
-          <p className="text-xs text-gray-700 font-medium">
-            💡 <span className="font-semibold">Proteja-se:</span> Aprenda a identificar golpes com nosso simulador interativo!
+        <motion.div 
+          className="mt-6 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl border border-yellow-200 text-center shadow-sm"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6 }}
+        >
+          <div className="flex items-center justify-center gap-2 mb-1">
+            <Sparkles className="w-5 h-5 text-yellow-600" />
+            <p className="text-sm md:text-base text-gray-800 font-semibold">
+              Proteja-se
+            </p>
+          </div>
+          <p className="text-xs md:text-sm text-gray-700">
+            Aprenda a identificar golpes com nosso simulador interativo!
           </p>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </motion.div>
   );
 };

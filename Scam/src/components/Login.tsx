@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { StepType } from '../features/SimuladorAntiGolpes';
-import { buttonClass } from '../styles/common';
 import { useState } from 'react';
-import { Eye, EyeOff } from 'lucide-react';
+import { Eye, EyeOff, LogIn, ArrowLeft, Mail, Lock, Shield } from 'lucide-react';
 import { userApi, User } from '../services/api';
 
 interface LoginProps {
@@ -19,6 +18,7 @@ const Login = ({ setStep, onLoginSuccess }: LoginProps) => {
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [loginError, setLoginError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [showValidationMessage, setShowValidationMessage] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -52,7 +52,14 @@ const Login = ({ setStep, onLoginSuccess }: LoginProps) => {
 
   const handleSubmit = async () => {
     setLoginError('');
-    if (validateForm() && !isLoading) {
+    setShowValidationMessage(false);
+    
+    if (!validateForm()) {
+      setShowValidationMessage(true);
+      return;
+    }
+    
+    if (!isLoading) {
       setIsLoading(true);
       
       try {
@@ -87,27 +94,66 @@ const Login = ({ setStep, onLoginSuccess }: LoginProps) => {
   };
 
   const inputClass = (field: string) =>
-    `w-full border p-2 rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent ${
-      errors[field] ? 'border-red-500' : 'border-gray-300'
+    `w-full border-2 p-3 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+      errors[field] ? 'border-red-500 bg-red-50' : 'border-gray-300 bg-white hover:border-gray-400'
     }`;
 
   const labelClass = (field: string) =>
-    `block text-sm font-medium mb-1 ${
+    `block text-sm font-semibold mb-2 ${
       errors[field] ? 'text-red-600' : 'text-gray-700'
     }`;
 
   return (
     <motion.div 
-      className="bg-white rounded-lg shadow-lg p-6 flex flex-col gap-4"
+      className="bg-gradient-to-br from-blue-50 via-white to-purple-50 rounded-2xl shadow-2xl p-8 flex flex-col gap-6"
       initial={{ opacity: 0, x: 100 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.5 }}
     >
-      <h2 className="text-xl font-semibold text-blue-700 text-center mb-2">ENTRAR</h2>
+      {/* Header */}
+      <motion.div 
+        className="text-center mb-4"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+      >
+        <motion.div 
+          className="flex justify-center mb-4"
+          animate={{ 
+            rotate: [0, 5, -5, 0],
+            scale: [1, 1.05, 1]
+          }}
+          transition={{ 
+            repeat: Infinity, 
+            duration: 3,
+            ease: "easeInOut"
+          }}
+        >
+          <div className="p-4 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl shadow-lg">
+            <Shield className="text-white w-12 h-12" />
+          </div>
+        </motion.div>
+        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+          ENTRAR
+        </h2>
+        <p className="text-gray-600 text-sm md:text-base">
+          Acesse sua conta para continuar aprendendo
+        </p>
+      </motion.div>
 
-      <div className="space-y-4">
-        <div>
-          <label htmlFor="email" className={labelClass('email')}>Email</label>
+      {/* Form */}
+      <div className="space-y-5">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          <label htmlFor="email" className={labelClass('email')}>
+            <div className="flex items-center gap-2">
+              <Mail className="w-4 h-4" />
+              Email
+            </div>
+          </label>
           <input 
             type="email" 
             id="email"
@@ -117,11 +163,28 @@ const Login = ({ setStep, onLoginSuccess }: LoginProps) => {
             placeholder="seu@email.com" 
             className={inputClass('email')} 
           />
-          {errors.email && <p className="text-red-600 text-sm mt-1">{errors.email}</p>}
-        </div>
+          {errors.email && (
+            <motion.p 
+              className="text-red-600 text-sm mt-1 flex items-center gap-1"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+            >
+              {errors.email}
+            </motion.p>
+          )}
+        </motion.div>
 
-        <div>
-          <label htmlFor="password" className={labelClass('password')}>Senha</label>
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.4 }}
+        >
+          <label htmlFor="password" className={labelClass('password')}>
+            <div className="flex items-center gap-2">
+              <Lock className="w-4 h-4" />
+              Senha
+            </div>
+          </label>
           <div className="relative">
             <input 
               type={showPassword ? "text" : "password"} 
@@ -129,51 +192,94 @@ const Login = ({ setStep, onLoginSuccess }: LoginProps) => {
               name="password"
               value={formData.password}
               onChange={handleChange}
-              placeholder="Senha" 
-              className={`${inputClass('password')} pr-10`} 
+              placeholder="Digite sua senha" 
+              className={`${inputClass('password')} pr-12`} 
             />
-            <button 
+            <motion.button 
               type="button"
               onClick={togglePasswordVisibility}
-              className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-500 hover:text-gray-700"
+              className="absolute inset-y-0 right-0 pr-4 flex items-center text-gray-500 hover:text-gray-700 transition-colors"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
             >
               {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-            </button>
+            </motion.button>
           </div>
-          {errors.password && <p className="text-red-600 text-sm mt-1">{errors.password}</p>}
-        </div>
+          {errors.password && (
+            <motion.p 
+              className="text-red-600 text-sm mt-1 flex items-center gap-1"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+            >
+              {errors.password}
+            </motion.p>
+          )}
+        </motion.div>
       </div>
 
-      {Object.values(errors).length > 0 && (
-        <div className="text-red-600 text-sm mt-2 text-center">
+      {/* Error Messages */}
+      {showValidationMessage && Object.values(errors).length > 0 && (
+        <motion.div 
+          className="text-red-600 text-sm text-center p-3 bg-red-50 rounded-lg border border-red-200"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
           Corrija os campos destacados acima.
-        </div>
+        </motion.div>
       )}
 
       {loginError && (
-        <div className="text-red-600 text-sm mt-2 text-center">
+        <motion.div 
+          className="text-red-600 text-sm text-center p-3 bg-red-50 rounded-lg border border-red-200"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
           {loginError}
-        </div>
+        </motion.div>
       )}
 
-      <div className="flex gap-3 mt-4">
+      {/* Action Buttons */}
+      <div className="flex gap-4 mt-2">
         <motion.button 
-          className={`${buttonClass} flex-1 bg-gray-400 hover:bg-gray-500`} 
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl font-semibold transition-all shadow-md" 
           onClick={() => setStep('welcome')}
-          whileHover={{ scale: 1.03 }}
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.5 }}
+          whileHover={{ scale: 1.02, x: -2 }}
           whileTap={{ scale: 0.98 }}
         >
+          <ArrowLeft className="w-5 h-5" />
           Voltar
         </motion.button>
         
         <motion.button 
-          className={`${buttonClass} flex-1 bg-blue-700 hover:bg-blue-800 text-white ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
+          className={`flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl font-bold shadow-lg transition-all ${
+            isLoading ? 'opacity-50 cursor-not-allowed' : ''
+          }`}
           onClick={handleSubmit}
-          whileHover={isLoading ? {} : { scale: 1.03 }}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.6 }}
+          whileHover={isLoading ? {} : { scale: 1.02, y: -2 }}
           whileTap={isLoading ? {} : { scale: 0.98 }}
           disabled={isLoading}
         >
-          {isLoading ? 'Entrando...' : 'Continuar'}
+          {isLoading ? (
+            <>
+              <motion.div
+                className="w-5 h-5 border-2 border-white border-t-transparent rounded-full"
+                animate={{ rotate: 360 }}
+                transition={{ repeat: Infinity, duration: 1, ease: "linear" }}
+              />
+              Entrando...
+            </>
+          ) : (
+            <>
+              <LogIn className="w-5 h-5" />
+              Continuar
+            </>
+          )}
         </motion.button>
       </div>
     </motion.div>

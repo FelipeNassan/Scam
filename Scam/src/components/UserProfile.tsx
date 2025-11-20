@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, Trophy, TrendingUp, BarChart3, Edit2, Save, X, Eye, EyeOff, Shield, Heart } from 'lucide-react';
+import { LogOut, Play, Trophy, TrendingUp, BarChart3, Edit2, Save, X, Eye, EyeOff, Shield, Heart, Users, FileQuestion, Activity, Sparkles, Target, Award, Zap, Calendar, Star } from 'lucide-react';
 import { quizAttemptApi, QuizAttempt, userApi, User } from '../services/api';
 import { buttonClass } from '../styles/common';
 import AdminPanel from './AdminPanel';
@@ -57,6 +57,7 @@ const UserProfile = ({ userId, userName, onPlay, onLogout, onUserNameUpdate }: U
   const [selectedInterests, setSelectedInterests] = useState<string[]>([]);
   const [initialInterests, setInitialInterests] = useState<string[]>([]); // Para restaurar ao cancelar
   const [interestsLoading, setInterestsLoading] = useState(false);
+  const [interestsError, setInterestsError] = useState<string>('');
 
   // Verificar se o usuário é admin (baseado no email)
   useEffect(() => {
@@ -209,15 +210,29 @@ const UserProfile = ({ userId, userName, onPlay, onLogout, onUserNameUpdate }: U
 
   // Toggle interesse
   const toggleInterest = (interest: string) => {
-    if (selectedInterests.includes(interest)) {
-      setSelectedInterests(prev => prev.filter(item => item !== interest));
+    setInterestsError(''); // Limpa erro ao selecionar
+    if (interest === 'Todos') {
+      // Se "Todos" for clicado, limpa a seleção (mostra todas as questões)
+      setSelectedInterests([]);
     } else {
-      setSelectedInterests(prev => [...prev, interest]);
+      // Remove "Todos" se estiver selecionado e adiciona o interesse específico
+      if (selectedInterests.includes(interest)) {
+        setSelectedInterests(prev => prev.filter(item => item !== interest));
+      } else {
+        setSelectedInterests(prev => prev.filter(item => item !== 'Todos').concat(interest));
+      }
     }
   };
 
   // Salvar interesses
   const saveInterests = async () => {
+    // Validação: se não selecionou "Todos", deve ter pelo menos 3 interesses
+    if (selectedInterests.length > 0 && selectedInterests.length < 3) {
+      setInterestsError('Por favor, selecione pelo menos 3 interesses ou escolha "Todos" para ver todas as questões.');
+      return;
+    }
+
+    setInterestsError(''); // Limpa erro se validação passou
     setInterestsLoading(true);
 
     try {
@@ -363,88 +378,125 @@ const UserProfile = ({ userId, userName, onPlay, onLogout, onUserNameUpdate }: U
 
   return (
     <motion.div
-      className="bg-white rounded-lg shadow-lg p-6 max-w-4xl w-full"
+      className="bg-gradient-to-br from-purple-50 via-white to-blue-50 rounded-lg shadow-xl p-8 max-w-7xl w-full mx-auto"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
       {/* Header */}
-      <div className="mb-6">
-        {/* Saudação e Botão Sair */}
-        <div className="flex items-center justify-between mb-4">
-          <h1 className="text-2xl font-bold text-gray-800">Olá, {userName}!</h1>
-          <button
-            onClick={() => setShowLogoutConfirm(true)}
-            className="flex items-center gap-2 px-4 py-2 bg-red-100 hover:bg-red-200 text-red-700 rounded-md transition-colors"
+      <div className="mb-8">
+        {/* Saudação e Botão Começar Quiz */}
+        <div className="flex items-center justify-between mb-6">
+          <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+            Olá, {userName}!
+          </h1>
+          <motion.button
+            onClick={onPlay}
+            className="flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all"
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.98 }}
           >
-            <LogOut className="w-4 h-4" />
-            Sair
-          </button>
+            <Play className="w-6 h-6" />
+            Começar Quiz
+          </motion.button>
         </div>
 
         {/* Botões */}
-        <div className="flex flex-wrap gap-2 mb-4">
-          <button
+        <div className="flex flex-wrap gap-3 mb-6">
+          <motion.button
             onClick={openInterestsModal}
-            className="flex items-center gap-2 px-4 py-2 bg-pink-100 hover:bg-pink-200 text-pink-700 rounded-md transition-colors"
+            className="flex items-center gap-2 px-5 py-2.5 bg-pink-100 hover:bg-pink-200 text-pink-700 rounded-xl transition-all shadow-md hover:shadow-lg font-semibold"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             title="Editar interesses"
           >
-            <Heart className="w-4 h-4" />
+            <Heart className="w-5 h-5" />
             Interesses
-          </button>
-          <button
+          </motion.button>
+          <motion.button
             onClick={openEditModal}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-md transition-colors"
+            className="flex items-center gap-2 px-5 py-2.5 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-xl transition-all shadow-md hover:shadow-lg font-semibold"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             title="Editar perfil"
           >
-            <Edit2 className="w-4 h-4" />
+            <Edit2 className="w-5 h-5" />
             Editar Perfil
-          </button>
+          </motion.button>
           {isAdmin && (
-            <button
+            <motion.button
               onClick={() => setIsAdminPanelOpen(true)}
-              className="flex items-center gap-2 px-4 py-2 bg-purple-100 hover:bg-purple-200 text-purple-700 rounded-md transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 bg-purple-100 hover:bg-purple-200 text-purple-700 rounded-xl transition-all shadow-md hover:shadow-lg font-semibold"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               title="Painel Administrativo"
             >
-              <Shield className="w-4 h-4" />
+              <Shield className="w-5 h-5" />
               Admin
-            </button>
+            </motion.button>
           )}
         </div>
 
         {/* Texto de acompanhamento */}
-        <div className="mb-6 pb-4 border-b">
-          <p className="text-gray-600 text-sm">Acompanhe sua evolução</p>
+        <div className="mb-6 pb-4 border-b-2 border-gray-200">
+          <div className="flex items-center gap-2">
+            <TrendingUp className="w-5 h-5 text-purple-600" />
+            <p className="text-gray-700 font-semibold text-lg">Acompanhe sua evolução</p>
+          </div>
         </div>
       </div>
 
       {/* Estatísticas */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        <div className="bg-blue-50 rounded-lg p-4">
-          <div className="flex items-center gap-2 mb-2">
-            <BarChart3 className="w-5 h-5 text-blue-600" />
-            <span className="text-sm font-medium text-gray-600">Total de Jogadas</span>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <motion.div 
+          className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 shadow-lg border-2 border-blue-200"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+        >
+          <div className="flex items-center gap-3 mb-3">
+            <div className="p-3 bg-blue-500 rounded-xl shadow-md">
+              <BarChart3 className="w-6 h-6 text-white" />
+            </div>
+            <span className="text-sm font-semibold text-gray-700">Total de Jogadas</span>
           </div>
-          <div className="text-2xl font-bold text-blue-700">{stats.totalAttempts}</div>
-        </div>
+          <div className="text-4xl font-bold text-blue-700">{stats.totalAttempts}</div>
+        </motion.div>
 
-        <div className="bg-green-50 rounded-lg p-4">
-          <div className="flex items-center gap-2 mb-2">
-            <TrendingUp className="w-5 h-5 text-green-600" />
-            <span className="text-sm font-medium text-gray-600">Média de Acertos</span>
+        <motion.div 
+          className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 shadow-lg border-2 border-green-200"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+        >
+          <div className="flex items-center gap-3 mb-3">
+            <div className="p-3 bg-green-500 rounded-xl shadow-md">
+              <TrendingUp className="w-6 h-6 text-white" />
+            </div>
+            <span className="text-sm font-semibold text-gray-700">Média de Acertos</span>
           </div>
-          <div className="text-2xl font-bold text-green-700">
+          <div className="text-4xl font-bold text-green-700">
             {stats.averageScore.toFixed(1)}
           </div>
-        </div>
+        </motion.div>
 
-        <div className="bg-yellow-50 rounded-lg p-4">
-          <div className="flex items-center gap-2 mb-2">
-            <Trophy className="w-5 h-5 text-yellow-600" />
-            <span className="text-sm font-medium text-gray-600">Melhor Pontuação</span>
+        <motion.div 
+          className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-6 shadow-lg border-2 border-yellow-200"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+        >
+          <div className="flex items-center gap-3 mb-3">
+            <div className="p-3 bg-yellow-500 rounded-xl shadow-md">
+              <Trophy className="w-6 h-6 text-white" />
+            </div>
+            <span className="text-sm font-semibold text-gray-700">Melhor Pontuação</span>
           </div>
-          <div className="text-2xl font-bold text-yellow-700">{stats.bestScore}</div>
-        </div>
+          <div className="text-4xl font-bold text-yellow-700">{stats.bestScore}</div>
+        </motion.div>
       </div>
 
       {/* Gráfico de Evolução */}
@@ -553,18 +605,6 @@ const UserProfile = ({ userId, userName, onPlay, onLogout, onUserNameUpdate }: U
         </div>
       )}
 
-      {/* Botão Jogar */}
-      <div className="flex justify-center">
-        <motion.button
-          onClick={onPlay}
-          className={`${buttonClass} bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center gap-2 max-w-xs`}
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-        >
-          <Play className="w-5 h-5" />
-          Começar Quiz
-        </motion.button>
-      </div>
 
       {/* Modal de Edição de Perfil */}
       <AnimatePresence>

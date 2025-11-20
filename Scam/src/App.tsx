@@ -31,28 +31,28 @@ function getRandomThemeKey() {
 }
 
 function App() {
-  const [theme, setTheme] = useState(getRandomThemeKey()); // tema aleatório ao montar
+  const [theme, setTheme] = useState(getRandomThemeKey());
+  const [currentStep, setCurrentStep] = useState<string>('welcome');
 
   return (
     <div className={`min-h-screen bg-gradient-to-br ${themes[theme].gradient} flex items-center justify-center p-4 relative transition-colors duration-500`}>
-      
-      {/* Combobox com preview */}
-      <div className="absolute top-4 right-4 bg-white bg-opacity-80 shadow-md rounded px-3 py-2 z-10">
-        <label className="text-sm font-semibold text-gray-800 mb-1 block">Temas de fundo:</label>
-        <select
-          value={theme}
-          onChange={(e) => setTheme(e.target.value)}
-          className="w-full text-sm px-2 py-1 bg-white border border-gray-300 rounded focus:outline-none"
-        >
-          {Object.entries(themes).map(([key, { name }]) => (
-            <option key={key} value={key}>
-              {name}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <SimuladorAntiGolpes />
+      {currentStep === 'welcome' && (
+        <div className="absolute top-4 right-4 bg-white bg-opacity-80 shadow-md rounded px-3 py-2 z-10">
+          <label className="text-sm font-semibold text-gray-800 mb-1 block">Temas de fundo:</label>
+          <select
+            value={theme}
+            onChange={(e) => setTheme(e.target.value)}
+            className="w-full text-sm px-2 py-1 bg-white border border-gray-300 rounded focus:outline-none"
+          >
+            {Object.entries(themes).map(([key, { name }]) => (
+              <option key={key} value={key}>
+                {name}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+      <SimuladorAntiGolpes onStepChange={setCurrentStep} />
     </div>
   );
 }

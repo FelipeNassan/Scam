@@ -42,47 +42,29 @@ export function getRandomQuestions(count: number, selectedInterests: string[] = 
     return [];
   }
 
-  // Se não há interesses selecionados, retorna aleatório simples
+  // Se não há interesses selecionados (ou "Todos" foi selecionado), retorna todas as questões aleatórias
   if (selectedInterests.length === 0) {
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, Math.min(count, questions.length));
   }
 
-  // Classifica perguntas por relevância aos interesses
-  const questionsWithScores = questions.map(question => ({
-    question,
-    score: getQuestionRelevanceScore(question, selectedInterests)
-  }));
+  // Filtra APENAS questões que tenham pelo menos um dos interesses selecionados
+  const filteredQuestions = questions.filter(question => {
+    // Se a questão não tem interesses definidos, não inclui
+    if (!question.interests || question.interests.length === 0) {
+      return false;
+    }
+    
+    // Verifica se a questão tem pelo menos um interesse que corresponde aos selecionados
+    return question.interests.some(interest => selectedInterests.includes(interest));
+  });
 
-  // Separa em grupos: relacionadas e não relacionadas
-  const relatedQuestions = questionsWithScores
-    .filter(item => item.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .map(item => item.question);
+  // Se não há questões filtradas, retorna vazio (ou poderia retornar todas como fallback)
+  if (filteredQuestions.length === 0) {
+    return [];
+  }
 
-  const unrelatedQuestions = questionsWithScores
-    .filter(item => item.score === 0)
-    .map(item => item.question);
-
-  // Embaralha cada grupo
-  const shuffledRelated = [...relatedQuestions].sort(() => 0.5 - Math.random());
-  const shuffledUnrelated = [...unrelatedQuestions].sort(() => 0.5 - Math.random());
-
-  // Prioriza perguntas relacionadas: 70% relacionadas, 30% não relacionadas
-  const relatedCount = Math.min(
-    Math.ceil(count * 0.7),
-    shuffledRelated.length
-  );
-  const unrelatedCount = Math.min(
-    count - relatedCount,
-    shuffledUnrelated.length
-  );
-
-  const selected = [
-    ...shuffledRelated.slice(0, relatedCount),
-    ...shuffledUnrelated.slice(0, unrelatedCount)
-  ];
-
-  // Embaralha o resultado final para misturar as categorias
-  return selected.sort(() => 0.5 - Math.random());
+  // Embaralha as questões filtradas e retorna o número solicitado
+  const shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, Math.min(count, shuffled.length));
 }

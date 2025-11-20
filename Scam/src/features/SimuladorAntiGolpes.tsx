@@ -26,9 +26,20 @@ export type StepType =
   | 'result'
   | 'end';
 
-const SimuladorAntiGolpes = () => {
+interface SimuladorAntiGolpesProps {
+  onStepChange?: (step: StepType) => void;
+}
+
+const SimuladorAntiGolpes = ({ onStepChange }: SimuladorAntiGolpesProps = {}) => {
   // Controle de tela
   const [step, setStep] = useState<StepType>('welcome');
+  
+  // Notificar App sobre mudanças de step
+  useEffect(() => {
+    if (onStepChange) {
+      onStepChange(step);
+    }
+  }, [step, onStepChange]);
   
   // Usuário logado
   const [username, setUsername] = useState<string | null>(null);
@@ -45,12 +56,16 @@ const SimuladorAntiGolpes = () => {
 
   // Função para carregar interesses (do banco se logado, senão do localStorage)
   const getSavedInterests = async (): Promise<string[]> => {
-    // Se o usuário está logado, tenta carregar do banco
-    if (userId && userData) {
+    // Se o usuário está logado, sempre busca os dados mais recentes do banco
+    if (userId) {
       try {
-        if (userData.interests) {
-          const interests = JSON.parse(userData.interests);
+        // Busca os dados mais recentes do usuário do banco
+        const user = await userApi.getUserById(userId);
+        if (user && user.interests) {
+          const interests = JSON.parse(user.interests);
           if (Array.isArray(interests)) {
+            // Atualiza o userData no estado para manter sincronizado
+            setUserData(user);
             // Atualiza também o localStorage para uso imediato
             localStorage.setItem('userInterests', JSON.stringify(interests));
             return interests;
@@ -86,25 +101,42 @@ const SimuladorAntiGolpes = () => {
         }
         // Resetar índice quando filtrar
         setQuestionIndex(0);
-      } else {
-        // Usuários normais veem 10 aleatórias, priorizando interesses selecionados
-        const savedInterests = await getSavedInterests();
-        setShuffledQuizQuestions(getRandomQuestions(10, savedInterests));
       }
+      // Para usuários normais, as questões são carregadas explicitamente quando necessário
+      // (no onPlay, resetQuiz, etc.) para evitar loops
     };
     loadQuestions();
-  }, [isAdmin, userId, userData, selectedInterestFilter]);
+  }, [isAdmin, selectedInterestFilter]);
 
-  // Recarregar perguntas quando entrar no quiz pela primeira vez (para atualizar com novos interesses)
+  // Carregar questões automaticamente quando vai para o quiz (após selecionar interesses)
+  useEffect(() => {
+    const loadQuizQuestions = async () => {
+      if (step === 'quiz' && !isAdmin && shuffledQuizQuestions.length === 0) {
+        const savedInterests = await getSavedInterests();
+        const newQuestions = getRandomQuestions(10, savedInterests);
+        setShuffledQuizQuestions(newQuestions);
+        setQuestionIndex(0);
+        setScore(0);
+        setIsCorrect(null);
+      }
+    };
+    loadQuizQuestions();
+  }, [step, isAdmin]);
+
+  // Recarregar perguntas quando entrar no quiz (para atualizar com novos interesses)
   useEffect(() => {
     const reloadQuestions = async () => {
-      if (step === 'quiz' && !isAdmin && questionIndex === 0) {
+      if (step === 'quiz' && !isAdmin) {
+        // Sempre recarrega as questões quando entra no quiz para garantir que usa os interesses mais recentes
         const savedInterests = await getSavedInterests();
-        setShuffledQuizQuestions(getRandomQuestions(10, savedInterests));
+        const newQuestions = getRandomQuestions(10, savedInterests);
+        setShuffledQuizQuestions(newQuestions);
+        // Resetar o índice quando recarregar as questões
+        setQuestionIndex(0);
       }
     };
     reloadQuestions();
-  }, [step]);
+  }, [step, userId]);
 
   // Ao logar, carregar score salvo da API e verificar se é admin
   useEffect(() => {
@@ -190,24 +222,45 @@ const SimuladorAntiGolpes = () => {
       setIsCorrect(null);
       setStep('quiz');
     } else {
+      // Verifica se há userId no estado ou no localStorage
+      let currentUserId = userId;
+      if (!currentUserId) {
+        const currentUser = localStorage.getItem('currentUser');
+        if (currentUser) {
+          try {
+            const userData = JSON.parse(currentUser);
+            if (userData.id) {
+              currentUserId = userData.id;
+              // Atualiza o estado também
+              setUserId(userData.id);
+              if (userData.name) {
+                setUsername(userData.name);
+              }
+            }
+          } catch (error) {
+            console.error('Erro ao recuperar userId do localStorage:', error);
+          }
+        }
+      }
+      
       // Salva histórico da partida e score ao final do quiz, se logado E não for admin
-      if (userId && !isAdmin) {
+      if (currentUserId && !isAdmin) {
         try {
           const totalQuestions = shuffledQuizQuestions.length;
           const percentage = Math.round((score / totalQuestions) * 100);
           
           // Salva histórico da partida na API
           await quizAttemptApi.createQuizAttempt({
-            userId,
+            userId: currentUserId,
             score,
             totalQuestions,
             percentage,
           });
           
           // Atualiza score máximo do usuário na API
-          const user = await userApi.getUserById(userId);
+          const user = await userApi.getUserById(currentUserId);
           if (user && score > user.score) {
-            await userApi.updateUser(userId, { score });
+            await userApi.updateUser(currentUserId, { score });
           }
           
           // Atualiza também no localStorage para manter sincronizado
@@ -279,7 +332,7 @@ const SimuladorAntiGolpes = () => {
     setStep('profile');
   };
 
-  // Verifica se há usuário logado ao montar o componente
+  // Verifica se há usuário logado ao montar o componente e quando vai para quiz
   useEffect(() => {
     const currentUser = localStorage.getItem('currentUser');
     if (currentUser) {
@@ -296,12 +349,30 @@ const SimuladorAntiGolpes = () => {
     }
   }, []);
 
+  // Verifica se há usuário logado quando vai para o quiz ou perfil (para casos de novo registro)
+  useEffect(() => {
+    if ((step === 'quiz' || step === 'profile' || step === 'end') && !userId) {
+      const currentUser = localStorage.getItem('currentUser');
+      if (currentUser) {
+        try {
+          const userData = JSON.parse(currentUser);
+          if (userData.name && userData.id) {
+            setUsername(userData.name);
+            setUserId(userData.id);
+          }
+        } catch (error) {
+          console.error('Erro ao recuperar usuário logado:', error);
+        }
+      }
+    }
+  }, [step, userId]);
+
 
   const canRenderQuiz = step === 'quiz' && currentQuizQuestion;
   const canRenderResult = step === 'result' && currentQuizQuestion;
 
   return (
-    <div className={`${isAdmin ? 'max-w-7xl' : 'max-w-md'} w-full mx-auto`}>
+    <div className={`${isAdmin ? 'max-w-7xl' : step === 'welcome' ? 'max-w-5xl' : step === 'profile' ? 'max-w-7xl' : step === 'interests' ? 'max-w-7xl' : step === 'result' ? 'max-w-7xl' : 'max-w-md'} w-full mx-auto`}>
       {step === 'welcome' && <Welcome setStep={setStep} />}
       {step === 'register' && <Registration setStep={setStep} />}
       {step === 'login' && <Login setStep={setStep} onLoginSuccess={onLoginSuccess} />}
@@ -329,11 +400,39 @@ const SimuladorAntiGolpes = () => {
           nextQuestion={nextQuestion}
         />
       )}
-      {step === 'profile' && userId && username && (
-        <UserProfile
-          userId={userId}
-          userName={username}
-          onPlay={async () => {
+      {step === 'profile' && (() => {
+        // Verifica se há userId no estado ou no localStorage
+        let profileUserId = userId;
+        let profileUserName = username;
+        
+        if (!profileUserId || !profileUserName) {
+          const currentUser = localStorage.getItem('currentUser');
+          if (currentUser) {
+            try {
+              const userData = JSON.parse(currentUser);
+              if (userData.id && userData.name) {
+                profileUserId = userData.id;
+                profileUserName = userData.name;
+                // Atualiza o estado
+                if (!userId) setUserId(userData.id);
+                if (!username) setUsername(userData.name);
+              }
+            } catch (error) {
+              console.error('Erro ao recuperar dados do usuário:', error);
+            }
+          }
+        }
+        
+        if (!profileUserId || !profileUserName) {
+          return null;
+        }
+        
+        return (
+          <UserProfile
+            key={`profile-${profileUserId}`}
+            userId={profileUserId}
+            userName={profileUserName}
+            onPlay={async () => {
             if (isAdmin) {
               setShuffledQuizQuestions(getAllQuestions());
             } else {
@@ -356,7 +455,8 @@ const SimuladorAntiGolpes = () => {
             }
           }}
         />
-      )}
+        );
+      })()}
       {step === 'end' && (
         <Completion
           score={score}
@@ -364,7 +464,7 @@ const SimuladorAntiGolpes = () => {
           setStep={setStep}
           resetQuiz={resetQuiz}
           resetAll={resetAll}
-          goToProfile={userId ? goToProfile : undefined}
+          goToProfile={goToProfile}
         />
       )}
     </div>
